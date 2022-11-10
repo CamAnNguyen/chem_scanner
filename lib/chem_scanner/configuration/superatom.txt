@@ -201,19 +201,15 @@ Tr Tr C(C1=CC=CC=C1)(C2=CC=CC=C2)C3=CC=CC=C3
 Troc Troc C(=O)OCC(Cl)(Cl)Cl
 Vinyl Vinyl C=C
 Voc Voc C(=O)OC=C
-
 O O O
 SO SO SO
 OS OS SO
 NO NO NO
 ON ON NO
-
 S S S
 NS NS NS
 SN SN NS
-
 N N N
-
 Cl Cl Cl
 OCl OCl OCl
 ClO ClO OCl
@@ -221,7 +217,6 @@ SCl SCl SCl
 ClS ClS SCl
 NCl NCl NCl
 ClN ClN NCl
-
 F F F
 OF OF OF
 FO FO OF
@@ -229,7 +224,6 @@ SF SF SF
 FS FS SF
 NF NF NF
 FN FN NF
-
 Br Br Br
 OBr OBr OBr
 BrO BrO OBr
@@ -237,7 +231,6 @@ SBr SBr SBr
 BrS BrS SBr
 NBr NBr NBr
 BrN BrN NBr
-
 H H [H]
 OH OH O
 HO HO O
@@ -245,7 +238,6 @@ NH NH N
 HN HN N
 SH SH S
 HS HS S
-
 Me Me C
 OMe OMe OC
 MeO MeO OC
@@ -2856,19 +2848,19 @@ NH4-Tosyl NH4-Tosyl NS(=O)(=O)(C1=CC=C(C)C=C1)
 4-TosylNH 4-TosylNH NS(=O)(=O)(C1=CC=C(C)C=C1)
 NHBns NHBns NS(=O)(=O)(CC1=CC=CC=C1)
 BnsNH BnsNH NS(=O)(=O)(CC1=CC=CC=C1)
-
 4-F-C6H4 4-F-C6H4 c1ccc(F)cc1
 3-F-C6H4 4-F-C6H4 c1cccc(F)c1
 4-MeO-Ph 4-OMe-Ph c1ccc(OC)cc1
-
 SPh PhS SC1=CC=CC=C1
 OPh PhO OC1=CC=CC=C1
 NPh PhN NC1=CC=CC=C1
-
 (CH2)2Ph (CH2)2Ph CCC1=CC=CC=C1
 Piv Piv OCC(C)(C)C
 OPiv PivO OC(O)C(C)(C)C
 SPiv PivS OC(S)C(C)(C)C
 NPiv PivN OC(N)C(C)(C)C
-
 CH2CH2Cl CH2CH2Cl CCCl
+CO OC CO
+H2O H2O O
+DMF DMF CN(C)C=O
+py py c1ccncc1
