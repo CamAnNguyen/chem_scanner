@@ -3,12 +3,12 @@
 
 module ChemScanner
   module Interpreter
-    OPEN_MARK = '[\(\[\{]'.freeze
-    CLOSE_MARK = '[\)\]\}]'.freeze
+    OPEN_MARK = '[\(\[\{]'
+    CLOSE_MARK = '[\)\]\}]'
 
     # NOTE: WIP file
     def mol_from_inorganic_formula(text)
-      return nil unless text.class == String
+      return nil unless text.instance_of?(String)
 
       string = text.dup
       iter = string =~ /#{OPEN_MARK}/
@@ -53,7 +53,7 @@ module ChemScanner
         iter = idx_iter.size - 1
         stop = false
 
-        until stop do
+        until stop
           vasum = idx_iter.reduce(0) do |sum, idx|
             el_valence = others[idx][:valences]
             cur_val = idx_iter[idx]

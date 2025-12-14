@@ -35,7 +35,9 @@ module ChemScanner
         # ---->|
         #      |
         #      V
-        arrow_graphic = @graphic_map.reject { |_, g| g.head.nil? || g.tail.nil? }
+        arrow_graphic = @graphic_map.reject do |_, g|
+          g.head.nil? || g.tail.nil?
+        end
         all_arrow = @geometry_map.merge(arrow_graphic)
         all_arrow.each do |key, geometry|
           arrow = Arrow.new(geometry)

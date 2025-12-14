@@ -102,17 +102,19 @@ module ChemScanner
       # Rebuild the node list
       #  - Split to new molecule(s)
       #  - Update bond id for Nickname/Fragment
-      # rubocop:disable Methods/PerceivedComplexity
+      # rubocop:disable Metrics/PerceivedComplexity
       def rebuild_objects_map
         delete_frags = []
 
-        # rubocop:disable Methods/BlockLength
+        # rubocop:disable Metrics/BlockLength
         @fragment_map.each_value do |fragment|
           node_map = {}
           bond_map = {}
           delete_nodes = []
 
-          fragment.node_map.reject { |_, n| n.type.negative? }.each do |nid, node|
+          fragment.node_map.reject do |_, n|
+            n.type.negative?
+          end.each do |nid, node|
             if node.nested_fragment.count > 1
               @fragment_group_map.merge!(fetch_fragment_group(node))
               @text_map.merge!(node.nested_text)
@@ -168,11 +170,11 @@ module ChemScanner
 
           delete_nodes.each { |id| fragment.node_map.delete(id) }
         end
-        # rubocop:enable Methods/BlockLength
+        # rubocop:enable Metrics/BlockLength
 
         delete_frags.each { |id| @fragment_map.delete(id) }
       end
-      # rubocop:enable Methods/PerceivedComplexity
+      # rubocop:enable Metrics/PerceivedComplexity
 
       # External Node handling
       def fetch_node_map(fragment, nested_fragment, nid)

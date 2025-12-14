@@ -18,7 +18,7 @@ module ChemScanner
         ]
 
         regex_list = [
-          /(^|\A)(([1-9a-z]{0,3}) *[)\.] *(.*))($|\z)/i,
+          /(^|\A)(([1-9a-z]{0,3}) *[).] *(.*))($|\z)/i,
           /(^|\A)\((([1-9a-z]{0,3}) *\) *(.*))($|\z)/i,
         ]
         check = false
@@ -28,9 +28,9 @@ module ChemScanner
         regex_list.each do |regex|
           next if check
 
-          list_matched = reaction.description.enum_for(:scan, regex).map {
+          list_matched = reaction.description.enum_for(:scan, regex).map do
             Regexp.last_match
-          }
+          end
           list_numbered = list_matched.map { |x| x[3] }
           next if list_numbered.empty?
 

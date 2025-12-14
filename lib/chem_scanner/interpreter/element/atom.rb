@@ -117,9 +117,7 @@ module ChemScanner
         end
 
         sbase = ChemScanner::Interpreter
-        @is_alias ||= begin
-          !@alias_text.empty? && sbase.rgroup_atom?(@alias_text) && @type >= 0
-        end
+        @is_alias ||= !@alias_text.empty? && sbase.rgroup_atom?(@alias_text) && @type >= 0
 
         # Polymer handling
         set_polymer if @ext_type === 3

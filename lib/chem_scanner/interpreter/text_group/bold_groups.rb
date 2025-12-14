@@ -41,13 +41,13 @@ module ChemScanner
       end
 
       def line_bold_groups(line, target_groups)
-        bold_regex = /\*\*([^\*\*]*)\*\*/
+        bold_regex = /\*\*([^**]*)\*\*/
         bold = line.scan(bold_regex).map(&:first).map(&:strip)
         bold.reject! do |x|
-          bold.select { |y| (y.size > x.size) && y.include?(x) }.count > 0
+          bold.select { |y| (y.size > x.size) && y.include?(x) }.count.positive?
         end
 
-        group_or = "(" + target_groups.join("|") + ")"
+        group_or = "(#{target_groups.join('|')})"
         group_regex = /#{group_or} *=/
         res = line.enum_for(:scan, group_regex)
         positions = res.map { Regexp.last_match.begin(0) }
@@ -55,7 +55,7 @@ module ChemScanner
         text_arr = positions.map.with_index do |pos, idx|
           end_pos = idx == (positions.size - 1) ? line.size : positions[idx + 1]
           rtext = line[pos, end_pos - pos]
-          regex = /#{group_or} *= *([^\*\*])*(?=$|\n|\.|\z|\Z|\*\*)/
+          regex = /#{group_or} *= *([^**])*(?=$|\n|\.|\z|\Z|\*\*)/
           rtext[regex].strip
         end
 
@@ -172,7 +172,7 @@ module ChemScanner
             next_group_size = rgroup[key_arr[next_group_idx]].size
           end
 
-          return combis if next_group_idx < 0
+          return combis if next_group_idx.negative?
 
           indices[next_group_idx] += 1
           (next_group_idx + 1..group_max_idx).each { |x| indices[x] = 0 }

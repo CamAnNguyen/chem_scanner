@@ -152,11 +152,9 @@ module ChemScanner
           end
 
           rd_bond.set_owning_mol(@rw_mol)
-          bid = @rw_mol.add_bond(rd_bond)
-
-          return bid
+          @rw_mol.add_bond(rd_bond)
         rescue RuntimeError
-          return -1
+          -1
         end
       end
 
@@ -225,7 +223,7 @@ module ChemScanner
         begin
           @rw_mol.compute_2dcoords(ref)
         rescue RuntimeError
-          return
+          nil
         end
       end
 

@@ -135,7 +135,7 @@ module ChemScanner
           font = @parser.font_table[fidx]
           if font[:name] == "Symbol" && style[:face] & 1 != 1
             t = style[:text].gsub(Regexp.union(GREEK_CHARS.keys), GREEK_CHARS)
-            style[:text] = t + " "
+            style[:text] = "#{t} "
           end
 
           # User use superscript "_" as minus
@@ -219,7 +219,7 @@ module ChemScanner
       def retrieve_bold_text
         bold_arr, non_bold_arr = @styled_text.partition { |s| s[:bold] }
         @bold_text = bold_arr.map { |x| x[:text] }.join(" ")
-        @bold_text.gsub!(/[,:\.] *$/, "")
+        @bold_text.gsub!(/[,:.] *$/, "")
         @non_bold_text = non_bold_arr.map { |x| x[:text] }.join("")
         @value = @styled_text.reduce("") { |mem, obj| "#{mem}#{obj[:text]}" }
 

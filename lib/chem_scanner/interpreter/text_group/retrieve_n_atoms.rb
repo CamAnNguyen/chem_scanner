@@ -33,7 +33,7 @@ module ChemScanner
           end
         end
 
-        @mol_map.values.each do |m|
+        @mol_map.each_value do |m|
           m.text_ids.each do |id|
             text = @text_map[id].value
 

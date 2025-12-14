@@ -43,7 +43,7 @@ module ChemScanner
                 !arrow.parallel_to?(oarrow)
               end
 
-              in_other.count > 0
+              in_other.count.positive?
             end
             remove_keys = remove_map.keys
 
