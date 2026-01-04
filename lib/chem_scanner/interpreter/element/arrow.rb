@@ -248,8 +248,9 @@ module ChemScanner
           segment = Geometry::Segment.new(point, points[idx - 1])
           ppoint = segment.to_line.point_projection(target_point)
 
-          from_head = if idx == 1 then true
-                      elsif idx == (points.size - 1) then false
+          from_head = case idx
+                      when 1 then true
+                      when points.size - 1 then false
                       end
           in_middle |= segment.point_in_range(ppoint, 4.0 / 5.0, from_head)
         end

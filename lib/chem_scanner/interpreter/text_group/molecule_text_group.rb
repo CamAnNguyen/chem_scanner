@@ -98,7 +98,7 @@ module ChemScanner
           cmol.update_output_formats
           bg[:bold].nil? || cmol.label = bg[:bold]
 
-          cmol.text += ". Generated with: " + generated_text.join("; ") unless generated_text.empty?
+          cmol.text += ". Generated with: #{generated_text.join('; ')}" unless generated_text.empty?
           @mol_map[cmol.id] = cmol
           generated_molecules.push(cmol)
         end

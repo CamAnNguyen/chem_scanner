@@ -3,6 +3,7 @@
     "id": 39055,
     "reactants": [
       {
+        "id": 38912,
         "smiles": "O=C(c1ccccc1O)C(Cc1ccccc1)Cc1ccccc1",
         "label": "",
         "text": "24 examples (50-92%)"
@@ -13,11 +14,13 @@
     ],
     "products": [
       {
+        "id": 38980,
         "smiles": "O=c1c(Cc2ccccc2)c(-c2ccccc2)oc2ccccc12",
         "label": "",
         "text": "90% + H2"
       },
       {
+        "id": 39056,
         "smiles": "[HH]",
         "label": "",
         "text": "H2"

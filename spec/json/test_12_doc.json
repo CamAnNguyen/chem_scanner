@@ -4,6 +4,7 @@
       "id": 241,
       "reactants": [
         {
+          "id": 724,
           "smiles": "*C(=O)/N=C/C(=O)OCC",
           "label": "",
           "text": "a)"
@@ -14,12 +15,16 @@
       ],
       "products": [
         {
-          "smiles": "*C(=O)N[C@H](C(=O)OCC)CC",
+          "id": 784,
+          "smiles": "*C(=O)N[C@@H](CC)C(=O)OCC",
           "label": "",
           "text": ""
         }
       ],
-      "steps": [], "reagent_smiles": [
+      "steps": [
+
+      ],
+      "reagent_smiles": [
 
       ],
       "description": "",
@@ -33,7 +38,8 @@
       "id": 617,
       "reactants": [
         {
-          "smiles": "CCOC(=O)/C=N/C#CC#CC#CC.[OH4]",
+          "id": 737,
+          "smiles": "CC#CC#CC#C/N=C/C(=O)OCC.[OH4]",
           "label": "",
           "text": "b)"
         }
@@ -43,12 +49,16 @@
       ],
       "products": [
         {
-          "smiles": "CCOC(=O)[C@@H](NC#CC#CC#CC)CC.[OH4]",
+          "id": 786,
+          "smiles": "CC#CC#CC#CN[C@@H](CC)C(=O)OCC.[OH4]",
           "label": "",
           "text": ""
         }
       ],
-      "steps": [], "reagent_smiles": [
+      "steps": [
+
+      ],
+      "reagent_smiles": [
 
       ],
       "description": "",
@@ -62,7 +72,8 @@
       "id": 719,
       "reactants": [
         {
-          "smiles": "CCOC(=O)/C=N/S(=O)(=O)c1ccc(cc1)C",
+          "id": 756,
+          "smiles": "CCOC(=O)/C=N/S(=O)(=O)c1ccc(C)cc1",
           "label": "",
           "text": "c)"
         }
@@ -72,12 +83,16 @@
       ],
       "products": [
         {
-          "smiles": "CCOC(=O)[C@@H](NS(=O)(=O)c1ccc(cc1)C)CC",
+          "id": 759,
+          "smiles": "CCOC(=O)[C@H](CC)NS(=O)(=O)c1ccc(C)cc1",
           "label": "",
           "text": ""
         }
       ],
-      "steps": [], "reagent_smiles": [
+      "steps": [
+
+      ],
+      "reagent_smiles": [
 
       ],
       "description": "",

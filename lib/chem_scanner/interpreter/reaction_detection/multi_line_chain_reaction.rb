@@ -49,7 +49,7 @@ module ChemScanner
         return true if @arrow_map.count < 2
 
         @arrow_map.each_value do |arrow|
-          return true if arrow.middle_points.count > 0
+          return true if arrow.middle_points.count.positive?
           return true unless arrow.head_segment.to_line.horizontal?
         end
 

@@ -145,9 +145,10 @@ module ChemScanner
         x = 0
         y = 0
 
-        if @parser_type == "cdx"
+        case @parser_type
+        when "cdx"
           y, x = binary_chunks(data, 4).map { |v| read_int(v, false) * 1.0e-6 }
-        elsif @parser_type == "cdxml"
+        when "cdxml"
           values = data.text.split(" ")
           x, y = values[0..1].map { |v| v.to_f / CDXML_CDX_POINT }
         end
@@ -159,9 +160,10 @@ module ChemScanner
         x = 0
         y = 0
 
-        if @parser_type == "cdx"
+        case @parser_type
+        when "cdx"
           x, y, = binary_chunks(data, 4).map { |v| read_int(v, false) * 1.0e-6 }
-        elsif @parser_type == "cdxml"
+        when "cdxml"
           values = data.text.split(" ")
           x, y = values[0..1].map { |v| v.to_f / CDXML_CDX_POINT }
         end
@@ -187,10 +189,6 @@ module ChemScanner
         Array.new(((string.length + size - 1) / size)) do |i|
           string.slice(i * size, size)
         end
-      end
-
-      def initialize(parser, parser_type, id)
-        super(parser, parser_type, id)
       end
 
       def cdx_text(data)

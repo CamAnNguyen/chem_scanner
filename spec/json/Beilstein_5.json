@@ -1,14 +1,15 @@
 [
   {
     "id": 2602,
-    "id_cdxml": 2620,
     "reactants": [
       {
+        "id": 2054,
         "smiles": "CCC(=O)C(=O)Nc1ccccc1",
         "label": "78",
         "text": ""
       },
       {
+        "id": 2077,
         "smiles": "O=[N+]([O-])/C=C/c1ccc(F)cc1",
         "label": "79",
         "text": "(2 equiv)  +"
@@ -16,6 +17,7 @@
     ],
     "reagents": [
       {
+        "id": 2169,
         "smiles": "CN(C)[C@@H]1CCCC[C@H]1NC(=S)Nc1cc(C(F)(F)F)cc(C(F)(F)F)c1",
         "label": "77",
         "text": ""
@@ -23,7 +25,8 @@
     ],
     "products": [
       {
-        "smiles": "*C1[C@H]([N+](=O)[O-])[C@@](O)(C(=O)Nc2ccccc2)[C@H](C)[C@H](c2ccc(F)cc2)[C@@H]1[N+](=O)[O-]",
+        "id": 2097,
+        "smiles": "*C1[C@@H]([N+](=O)[O-])[C@@H](c2ccc(F)cc2)[C@@H](C)[C@](O)(C(=O)Nc2ccccc2)[C@H]1[N+](=O)[O-]",
         "label": "76",
         "text": "61% yield\n>95:5 dr\n98% ee intramolecular\nHenry-type reaction "
       }
@@ -39,13 +42,14 @@
     "yield": "61%",
     "time": "18 h",
     "details": {
-    }
+    },
+    "id_cdxml": 2620
   },
   {
     "id": 2603,
-    "id_cdxml": 2621,
     "reactants": [
       {
+        "id": 2054,
         "smiles": "CCC(=O)C(=O)Nc1ccccc1",
         "label": "78",
         "text": ""
@@ -56,6 +60,7 @@
     ],
     "products": [
       {
+        "id": 2223,
         "smiles": "*[C@H](C[N+](=O)[O-])[C@@H](C)C(=O)C(=O)Nc1ccccc1",
         "label": "75",
         "text": ""
@@ -72,13 +77,14 @@
     "yield": "",
     "time": "",
     "details": {
-    }
+    },
+    "id_cdxml": 2621
   },
   {
     "id": 2604,
-    "id_cdxml": 2622,
     "reactants": [
       {
+        "id": 2223,
         "smiles": "*[C@H](C[N+](=O)[O-])[C@@H](C)C(=O)C(=O)Nc1ccccc1",
         "label": "75",
         "text": ""
@@ -89,7 +95,8 @@
     ],
     "products": [
       {
-        "smiles": "*[C@@H](C[N+](=O)[O-])[C@H]([C@@H](*)[C@@H](C)C(=O)C(=O)Nc1ccccc1)[N+](=O)[O-]",
+        "id": 2258,
+        "smiles": "*[C@H]([C@@H]([C@@H](*)C[N+](=O)[O-])[N+](=O)[O-])[C@@H](C)C(=O)C(=O)Nc1ccccc1",
         "label": "",
         "text": "Ar = 4-F-C6H4"
       }
@@ -105,14 +112,15 @@
     "yield": "",
     "time": "",
     "details": {
-    }
+    },
+    "id_cdxml": 2622
   },
   {
     "id": 2605,
-    "id_cdxml": 2623,
     "reactants": [
       {
-        "smiles": "*[C@@H](C[N+](=O)[O-])[C@H]([C@@H](*)[C@@H](C)C(=O)C(=O)Nc1ccccc1)[N+](=O)[O-]",
+        "id": 2258,
+        "smiles": "*[C@H]([C@@H]([C@@H](*)C[N+](=O)[O-])[N+](=O)[O-])[C@@H](C)C(=O)C(=O)Nc1ccccc1",
         "label": "",
         "text": "Ar = 4-F-C6H4"
       }
@@ -122,7 +130,8 @@
     ],
     "products": [
       {
-        "smiles": "*C1[C@H]([N+](=O)[O-])[C@@](O)(C(=O)Nc2ccccc2)[C@H](C)[C@H](c2ccc(F)cc2)[C@@H]1[N+](=O)[O-]",
+        "id": 2097,
+        "smiles": "*C1[C@@H]([N+](=O)[O-])[C@@H](c2ccc(F)cc2)[C@@H](C)[C@](O)(C(=O)Nc2ccccc2)[C@H]1[N+](=O)[O-]",
         "label": "76",
         "text": "61% yield\n>95:5 dr\n98% ee intramolecular\nHenry-type reaction "
       }
@@ -138,18 +147,20 @@
     "yield": "61%",
     "time": "",
     "details": {
-    }
+    },
+    "id_cdxml": 2623
   },
   {
     "id": 10000058,
-    "id_cdxml": 10000058,
     "reactants": [
       {
+        "id": 10000060,
         "smiles": "CCC(=O)C(=O)Nc1ccccc1",
         "label": "78",
         "text": ""
       },
       {
+        "id": 10000061,
         "smiles": "O=[N+]([O-])/C=C/c1ccc(F)cc1",
         "label": "79",
         "text": "(2 equiv)  +"
@@ -157,6 +168,7 @@
     ],
     "reagents": [
       {
+        "id": 10000062,
         "smiles": "CN(C)[C@@H]1CCCC[C@H]1NC(=S)Nc1cc(C(F)(F)F)cc(C(F)(F)F)c1",
         "label": "77",
         "text": ""
@@ -164,6 +176,7 @@
     ],
     "products": [
       {
+        "id": 10000064,
         "smiles": "C[C@@H]1[C@H](c2ccc(F)cc2)[C@H]([N+](=O)[O-])C(c2cccc(F)c2)[C@H]([N+](=O)[O-])[C@@]1(O)C(=O)Nc1ccccc1",
         "label": "76",
         "text": "61% yield\n>95:5 dr\n98% ee intramolecular\nHenry-type reaction . Generated with: Ar - 4-F-C6H4"
@@ -180,13 +193,14 @@
     "yield": "61%",
     "time": "18 h",
     "details": {
-    }
+    },
+    "id_cdxml": 10000058
   },
   {
     "id": 10000071,
-    "id_cdxml": 10000071,
     "reactants": [
       {
+        "id": 10000073,
         "smiles": "CCC(=O)C(=O)Nc1ccccc1",
         "label": "78",
         "text": ""
@@ -197,6 +211,7 @@
     ],
     "products": [
       {
+        "id": 10000075,
         "smiles": "C[C@@H](C(=O)C(=O)Nc1ccccc1)[C@@H](C[N+](=O)[O-])c1cccc(F)c1",
         "label": "75",
         "text": ". Generated with: Ar - 4-F-C6H4"
@@ -213,13 +228,14 @@
     "yield": "",
     "time": "",
     "details": {
-    }
+    },
+    "id_cdxml": 10000071
   },
   {
     "id": 10000080,
-    "id_cdxml": 10000080,
     "reactants": [
       {
+        "id": 10000084,
         "smiles": "C[C@@H](C(=O)C(=O)Nc1ccccc1)[C@@H](C[N+](=O)[O-])c1cccc(F)c1",
         "label": "75",
         "text": ". Generated with: Ar - 4-F-C6H4"
@@ -230,6 +246,7 @@
     ],
     "products": [
       {
+        "id": 10000085,
         "smiles": "C[C@@H](C(=O)C(=O)Nc1ccccc1)[C@H](c1cccc(F)c1)[C@@H]([C@@H](C[N+](=O)[O-])c1cccc(F)c1)[N+](=O)[O-]",
         "label": "",
         "text": "Ar = 4-F-C6H4. Generated with: Ar - 4-F-C6H4; Ar - 4-F-C6H4"
@@ -246,13 +263,14 @@
     "yield": "",
     "time": "",
     "details": {
-    }
+    },
+    "id_cdxml": 10000080
   },
   {
     "id": 10000090,
-    "id_cdxml": 10000090,
     "reactants": [
       {
+        "id": 10000094,
         "smiles": "C[C@@H](C(=O)C(=O)Nc1ccccc1)[C@H](c1cccc(F)c1)[C@@H]([C@@H](C[N+](=O)[O-])c1cccc(F)c1)[N+](=O)[O-]",
         "label": "",
         "text": "Ar = 4-F-C6H4. Generated with: Ar - 4-F-C6H4; Ar - 4-F-C6H4"
@@ -263,6 +281,7 @@
     ],
     "products": [
       {
+        "id": 10000095,
         "smiles": "C[C@@H]1[C@H](c2ccc(F)cc2)[C@H]([N+](=O)[O-])C(c2cccc(F)c2)[C@H]([N+](=O)[O-])[C@@]1(O)C(=O)Nc1ccccc1",
         "label": "76",
         "text": "61% yield\n>95:5 dr\n98% ee intramolecular\nHenry-type reaction . Generated with: Ar - 4-F-C6H4"
@@ -279,6 +298,7 @@
     "yield": "61%",
     "time": "",
     "details": {
-    }
+    },
+    "id_cdxml": 10000090
   }
 ]

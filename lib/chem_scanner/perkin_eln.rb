@@ -127,9 +127,9 @@ module ChemScanner
       rows.each do |row|
         tags = row.at_xpath("./tags")
         tags = { "ID" => nil, "parentID" => nil } if tags.nil?
-        values = row.xpath("./tableCell").map { |x|
+        values = row.xpath("./tableCell").map do |x|
           read_value(x["minValue"], x["maxValue"], x["value"])
-        }
+        end
         rows_values.push([tags["ID"], tags["parentID"]].concat(values))
       end
 
@@ -177,7 +177,7 @@ module ChemScanner
     def add_details(key, details)
       return if details.nil? || details.empty?
 
-      if details.class == Array
+      if details.instance_of?(Array)
         unresolved = []
 
         details.each do |detail|

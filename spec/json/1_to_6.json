@@ -3,6 +3,7 @@
     "id": 375039,
     "reactants": [
       {
+        "id": 370478,
         "smiles": "O=c1oc2ccccc2c(-c2ccccc2)c1Br",
         "label": "3Aa",
         "text": ""
@@ -10,6 +11,7 @@
     ],
     "reagents": [
       {
+        "id": 372497,
         "smiles": "*C=C",
         "label": "",
         "text": ""
@@ -17,6 +19,7 @@
     ],
     "products": [
       {
+        "id": 370730,
         "smiles": "Cc1ccc(/C=C/c2c(-c3ccccc3)c3ccccc3oc2=O)cc1",
         "label": "7Aa",
         "text": ""
@@ -26,7 +29,6 @@
 
     ],
     "reagent_smiles": [
-      "O=CN(C)C",
       "[O-]C(=O)[O-].[K+].[K+]",
       "c1ccc(cc1)P(c1ccccc1)c1ccccc1.c1ccc(cc1)P(c1ccccc1)c1ccccc1.Cl[Pd]Cl"
     ],
@@ -41,6 +43,7 @@
     "id": 375040,
     "reactants": [
       {
+        "id": 370478,
         "smiles": "O=c1oc2ccccc2c(-c2ccccc2)c1Br",
         "label": "3Aa",
         "text": ""
@@ -48,6 +51,7 @@
     ],
     "reagents": [
       {
+        "id": 375032,
         "smiles": "OB(O)c1ccccc1",
         "label": "",
         "text": ""
@@ -55,6 +59,7 @@
     ],
     "products": [
       {
+        "id": 370626,
         "smiles": "O=c1oc2ccccc2c(-c2ccccc2)c1-c1ccccc1",
         "label": "9Aa",
         "text": ""
@@ -64,8 +69,6 @@
 
     ],
     "reagent_smiles": [
-      "O",
-      "O=CN(C)C",
       "[O-]C(=O)[O-].[K+].[K+]",
       "c1ccc(cc1)P(c1ccccc1)c1ccccc1.c1ccc(cc1)P(c1ccccc1)c1ccccc1.Cl[Pd]Cl"
     ],
@@ -80,6 +83,7 @@
     "id": 375041,
     "reactants": [
       {
+        "id": 370478,
         "smiles": "O=c1oc2ccccc2c(-c2ccccc2)c1Br",
         "label": "3Aa",
         "text": ""
@@ -87,6 +91,7 @@
     ],
     "reagents": [
       {
+        "id": 372264,
         "smiles": "[Zn]",
         "label": "",
         "text": ""
@@ -94,6 +99,7 @@
     ],
     "products": [
       {
+        "id": 370521,
         "smiles": "[H]c1c(-c2ccccc2)c2ccccc2oc1=O",
         "label": "4Aa",
         "text": ""
@@ -116,6 +122,7 @@
     "id": 375043,
     "reactants": [
       {
+        "id": 370478,
         "smiles": "O=c1oc2ccccc2c(-c2ccccc2)c1Br",
         "label": "3Aa",
         "text": ""
@@ -126,6 +133,7 @@
     ],
     "products": [
       {
+        "id": 372448,
         "smiles": "Cc1ccc(Sc2c(-c3ccccc3)c3ccccc3oc2=O)cc1",
         "label": "5Aa",
         "text": ""
@@ -151,6 +159,7 @@
     "id": 375047,
     "reactants": [
       {
+        "id": 370478,
         "smiles": "O=c1oc2ccccc2c(-c2ccccc2)c1Br",
         "label": "3Aa",
         "text": ""
@@ -158,6 +167,7 @@
     ],
     "reagents": [
       {
+        "id": 370684,
         "smiles": "[H]C#Cc1ccccc1",
         "label": "",
         "text": ""
@@ -165,6 +175,7 @@
     ],
     "products": [
       {
+        "id": 370564,
         "smiles": "O=c1oc2ccccc2c(-c2ccccc2)c1C#Cc1ccccc1",
         "label": "8Aa",
         "text": ""
@@ -189,6 +200,7 @@
     "id": 375048,
     "reactants": [
       {
+        "id": 370478,
         "smiles": "O=c1oc2ccccc2c(-c2ccccc2)c1Br",
         "label": "3Aa",
         "text": ""
@@ -199,6 +211,7 @@
     ],
     "products": [
       {
+        "id": 372619,
         "smiles": "COc1ccc(C(=O)Nc2c(-c3ccccc3)c3ccccc3oc2=O)cc1",
         "label": "6Aa",
         "text": ""

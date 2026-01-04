@@ -36,7 +36,7 @@ module ChemScanner
         @is_polymer = false
       end
 
-      # rubocop:disable Methods/PerceivedComplexity
+      # rubocop:disable Metrics/PerceivedComplexity
       def parse_node(tag, nid, data)
         ref = @props_ref[tag]
         ref = ref.nil? ? @obj_ref[tag] : ref
@@ -74,7 +74,7 @@ module ChemScanner
         else do_unhandled(tag)
         end
       end
-      # rubocop:enable Methods/PerceivedComplexity
+      # rubocop:enable Metrics/PerceivedComplexity
 
       def post_parse_node
         @point = Geometry::Point.new(@x, @y)

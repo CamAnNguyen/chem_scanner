@@ -49,8 +49,9 @@ module ChemScanner
         @atom_bookmark_map = {}
         @atom_map = {}
         @rw_mol = RDKitChem::RWMol.new
-        @conf = RDKitChem::Conformer.new
-        @rw_mol.add_conf(@conf)
+        conf = RDKitChem::Conformer.new
+        @conf_id = @rw_mol.add_conf(conf)
+        @conf = @rw_mol.get_conformer(@conf_id)
 
         @bond_map = {}
 
@@ -152,11 +153,9 @@ module ChemScanner
           end
 
           rd_bond.set_owning_mol(@rw_mol)
-          bid = @rw_mol.add_bond(rd_bond)
-
-          return bid
+          @rw_mol.add_bond(rd_bond)
         rescue RuntimeError
-          return -1
+          -1
         end
       end
 
@@ -225,7 +224,7 @@ module ChemScanner
         begin
           @rw_mol.compute_2dcoords(ref)
         rescue RuntimeError
-          return
+          nil
         end
       end
 
@@ -427,19 +426,17 @@ module ChemScanner
       end
 
       def inspect
-        (
-          "#<Molecule: id=#{fragment.id}, " +
-            "polygon: #{polygon}," +
-            "text: #{text}, " +
-            "label: #{label}, " +
-            "mdl: #{mdl}, " +
-            "cano_smiles: #{cano_smiles}, " +
-            "text_ids: #{text_ids}, " +
-            "boxed: #{boxed}, " +
-            "details: #{details}, " +
-            "dash_bonds: #{dash_bonds}, " +
-            "dative_bonds: #{dative_bonds} >"
-        )
+        "#<Molecule: id=#{fragment.id}, " \
+          "polygon: #{polygon}," \
+          "text: #{text}, " \
+          "label: #{label}, " \
+          "mdl: #{mdl}, " \
+          "cano_smiles: #{cano_smiles}, " \
+          "text_ids: #{text_ids}, " \
+          "boxed: #{boxed}, " \
+          "details: #{details}, " \
+          "dash_bonds: #{dash_bonds}, " \
+          "dative_bonds: #{dative_bonds} >"
       end
 
       def set_rw_mol(rw_mol)

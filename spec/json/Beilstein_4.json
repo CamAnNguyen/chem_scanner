@@ -1,9 +1,9 @@
 [
   {
     "id": 167380,
-    "id_cdxml": 167453,
     "reactants": [
       {
+        "id": 164146,
         "smiles": "CON(C)C(=O)C[C@H]1Cc2cccc(C)c2O1",
         "label": "6",
         "text": ""
@@ -14,6 +14,7 @@
     ],
     "products": [
       {
+        "id": 164094,
         "smiles": "Cc1cccc2c1O[C@@H](CC(=O)C(=[N+]=[N-])C(=O)OC(C)(C)C)C2",
         "label": "14",
         "text": ""
@@ -55,13 +56,14 @@
     "yield": "",
     "time": "",
     "details": {
-    }
+    },
+    "id_cdxml": 167453
   },
   {
     "id": 167398,
-    "id_cdxml": 167457,
     "reactants": [
       {
+        "id": 164653,
         "smiles": "[H][C@]12C[C@H]3OC(C)OC[C@@H]3[C@@]1([H])c1cccc(CBr)c1O2",
         "label": "17",
         "text": ""
@@ -72,6 +74,7 @@
     ],
     "products": [
       {
+        "id": 164745,
         "smiles": "[H][C@]12C[C@H]3OC(C)OC[C@@H]3[C@@]1([H])c1cccc(CCCC(=O)OC)c1O2",
         "label": "18",
         "text": ""
@@ -88,13 +91,14 @@
     "yield": "",
     "time": "",
     "details": {
-    }
+    },
+    "id_cdxml": 167457
   },
   {
     "id": 167400,
-    "id_cdxml": 167459,
     "reactants": [
       {
+        "id": 164745,
         "smiles": "[H][C@]12C[C@H]3OC(C)OC[C@@H]3[C@@]1([H])c1cccc(CCCC(=O)OC)c1O2",
         "label": "18",
         "text": ""
@@ -117,13 +121,14 @@
     "yield": "",
     "time": "",
     "details": {
-    }
+    },
+    "id_cdxml": 167459
   },
   {
     "id": 167401,
-    "id_cdxml": 167460,
     "reactants": [
       {
+        "id": 164745,
         "smiles": "[H][C@]12C[C@H]3OC(C)OC[C@@H]3[C@@]1([H])c1cccc(CCCC(=O)OC)c1O2",
         "label": "18",
         "text": ""
@@ -146,13 +151,14 @@
     "yield": "",
     "time": "",
     "details": {
-    }
+    },
+    "id_cdxml": 167460
   },
   {
     "id": 167448,
-    "id_cdxml": 167471,
     "reactants": [
       {
+        "id": 164267,
         "smiles": "[H][C@]12C[C@@H](O)[C@H](C(=O)OC(C)(C)C)[C@@]1([H])c1cccc(C)c1O2",
         "label": "15",
         "text": " 1 2"
@@ -163,6 +169,7 @@
     ],
     "products": [
       {
+        "id": 164477,
         "smiles": "[H][C@]12C[C@H]3OC(C)OC[C@@H]3[C@@]1([H])c1cccc(C)c1O2",
         "label": "16",
         "text": ""
@@ -187,7 +194,6 @@
         "reagents": [
           "CCOC(OCC)C",
           "Cc1ccc(cc1)S(=O)(=O)O",
-          "O",
           "C1CCCO1"
         ]
       }
@@ -197,7 +203,6 @@
       "CCOC(OCC)C",
       "CCOCC",
       "Cc1ccc(cc1)S(=O)(=O)O",
-      "O",
       "[Li+].[BH4-]"
     ],
     "description": "1. LiBH4, Et2O, rt\n2. CH3CH(OEt)2\n    pTsOH·H2O, THF, 60 °C\n    78% (2 steps)",
@@ -205,13 +210,14 @@
     "yield": "78%",
     "time": "",
     "details": {
-    }
+    },
+    "id_cdxml": 167471
   },
   {
     "id": 167449,
-    "id_cdxml": 167472,
     "reactants": [
       {
+        "id": 164094,
         "smiles": "Cc1cccc2c1O[C@@H](CC(=O)C(=[N+]=[N-])C(=O)OC(C)(C)C)C2",
         "label": "14",
         "text": ""
@@ -222,6 +228,7 @@
     ],
     "products": [
       {
+        "id": 164267,
         "smiles": "[H][C@]12C[C@@H](O)[C@H](C(=O)OC(C)(C)C)[C@@]1([H])c1cccc(C)c1O2",
         "label": "15",
         "text": " 1 2"
@@ -241,13 +248,14 @@
     "yield": "60%",
     "time": "",
     "details": {
-    }
+    },
+    "id_cdxml": 167472
   },
   {
     "id": 167450,
-    "id_cdxml": 167473,
     "reactants": [
       {
+        "id": 164477,
         "smiles": "[H][C@]12C[C@H]3OC(C)OC[C@@H]3[C@@]1([H])c1cccc(C)c1O2",
         "label": "16",
         "text": ""
@@ -258,6 +266,7 @@
     ],
     "products": [
       {
+        "id": 164653,
         "smiles": "[H][C@]12C[C@H]3OC(C)OC[C@@H]3[C@@]1([H])c1cccc(CBr)c1O2",
         "label": "17",
         "text": ""
@@ -276,6 +285,7 @@
     "yield": "14%",
     "time": "",
     "details": {
-    }
+    },
+    "id_cdxml": 167473
   }
 ]

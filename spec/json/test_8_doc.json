@@ -1,15 +1,17 @@
 {
-  "1223039": [
+  "12230311": [
     {
       "id": 42,
       "reactants": [
         {
-          "smiles": "O=CC=C(C)C",
+          "id": 298,
+          "smiles": "CC(C)=CC=O",
           "label": "",
           "text": ""
         },
         {
-          "smiles": "O=Cc1c(C)cc(cc1O)O",
+          "id": 297,
+          "smiles": "Cc1cc(O)cc(O)c1C=O",
           "label": "",
           "text": "+"
         }
@@ -19,12 +21,16 @@
       ],
       "products": [
         {
-          "smiles": "O=Cc1c(O)cc2c(c1O)C=CC(O2)(C)C",
+          "id": 307,
+          "smiles": "CC1(C)C=Cc2c(cc(O)c(C=O)c2O)O1",
           "label": "",
           "text": "workup monday"
         }
       ],
-      "steps": [], "reagent_smiles": [
+      "steps": [
+
+      ],
+      "reagent_smiles": [
         "C1CN2CCN1CC2",
         "O",
         "O1CCOCC1"
@@ -40,12 +46,14 @@
       "id": 165,
       "reactants": [
         {
+          "id": 300,
           "smiles": "C/C=C\\C=O",
           "label": "",
           "text": ""
         },
         {
-          "smiles": "O=Cc1c(C)cc(cc1O)O",
+          "id": 299,
+          "smiles": "Cc1cc(O)cc(O)c1C=O",
           "label": "",
           "text": "+"
         }
@@ -55,12 +63,16 @@
       ],
       "products": [
         {
-          "smiles": "O=Cc1c(O)cc2c(c1O)C=CC(O2)C",
+          "id": 308,
+          "smiles": "CC1C=Cc2c(cc(O)c(C=O)c2O)O1",
           "label": "",
           "text": "21% \nwaiting for nmr"
         }
       ],
-      "steps": [], "reagent_smiles": [
+      "steps": [
+
+      ],
+      "reagent_smiles": [
         "C1CN2CCN1CC2",
         "O",
         "O1CCOCC1"
@@ -76,12 +88,14 @@
       "id": 193,
       "reactants": [
         {
+          "id": 302,
           "smiles": "CI",
           "label": "",
           "text": ""
         },
         {
-          "smiles": "Cc1cc(O)cc(c1)O",
+          "id": 301,
+          "smiles": "Cc1cc(O)cc(O)c1",
           "label": "",
           "text": "+"
         }
@@ -91,12 +105,16 @@
       ],
       "products": [
         {
-          "smiles": "COc1cc(OC)cc(c1)C",
+          "id": 309,
+          "smiles": "COc1cc(C)cc(OC)c1",
           "label": "",
           "text": "99%"
         }
       ],
-      "steps": [], "reagent_smiles": [
+      "steps": [
+
+      ],
+      "reagent_smiles": [
         "C1CCCO1",
         "[O-]C(=O)[O-].[K+].[K+]"
       ],

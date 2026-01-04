@@ -3,11 +3,13 @@
     "id": 4458,
     "reactants": [
       {
+        "id": 4196,
         "smiles": "*c1cc(N)n(*)n1",
         "label": "16",
         "text": ""
       },
       {
+        "id": 2502,
         "smiles": "Cc1c(C(=O)/C=C/N(C)C)sc2nc3ccccc3n12",
         "label": "38",
         "text": " R = H, Ph"
@@ -18,6 +20,7 @@
     ],
     "products": [
       {
+        "id": 2590,
         "smiles": "*c1cc(N/C=C/C(=O)c2sc3nc4ccccc4n3c2C)n(*)n1",
         "label": "39",
         "text": ""
@@ -41,6 +44,7 @@
     "id": 4461,
     "reactants": [
       {
+        "id": 2590,
         "smiles": "*c1cc(N/C=C/C(=O)c2sc3nc4ccccc4n3c2C)n(*)n1",
         "label": "39",
         "text": ""
@@ -51,6 +55,7 @@
     ],
     "products": [
       {
+        "id": 196,
         "smiles": "*c1cc2nccc(-c3sc4nc5ccccc5n4c3C)n2n1",
         "label": "41",
         "text": ""
@@ -60,7 +65,7 @@
 
     ],
     "reagent_smiles": [
-      "O"
+
     ],
     "description": "R = H\nR1 = Me, 4-OMe-Ph\n- H2O",
     "temperature": "",
@@ -73,6 +78,7 @@
     "id": 4462,
     "reactants": [
       {
+        "id": 2590,
         "smiles": "*c1cc(N/C=C/C(=O)c2sc3nc4ccccc4n3c2C)n(*)n1",
         "label": "39",
         "text": ""
@@ -83,6 +89,7 @@
     ],
     "products": [
       {
+        "id": 2663,
         "smiles": "*c1nn(-c2ccccc2)c2nccc(-c3sc4nc5ccccc5n4c3C)c12",
         "label": "40",
         "text": ""
@@ -105,11 +112,13 @@
     "id": 10000041,
     "reactants": [
       {
+        "id": 10000043,
         "smiles": "Cc1c(C(=O)/C=C/N(C)C)sc2nc3ccccc3n12",
         "label": "38",
         "text": " R = H, Ph"
       },
       {
+        "id": 10000046,
         "smiles": "Cc1cc(N)nn1",
         "label": "16",
         "text": ". Generated with: R - H; R1 - Me"
@@ -120,6 +129,7 @@
     ],
     "products": [
       {
+        "id": 10000047,
         "smiles": "Cc1cc(N/C=C/C(=O)c2sc3nc4ccccc4n3c2C)nn1",
         "label": "39",
         "text": ". Generated with: R1 - Me; R - H"
@@ -143,11 +153,13 @@
     "id": 10000048,
     "reactants": [
       {
+        "id": 10000050,
         "smiles": "Cc1c(C(=O)/C=C/N(C)C)sc2nc3ccccc3n12",
         "label": "38",
         "text": " R = H, Ph"
       },
       {
+        "id": 10000053,
         "smiles": "Cc1cc(N)n(-c2ccccc2)n1",
         "label": "16",
         "text": ". Generated with: R - Ph; R1 - Me"
@@ -158,6 +170,7 @@
     ],
     "products": [
       {
+        "id": 10000054,
         "smiles": "Cc1cc(N/C=C/C(=O)c2sc3nc4ccccc4n3c2C)n(-c2ccccc2)n1",
         "label": "39",
         "text": ". Generated with: R1 - Me; R - Ph"
@@ -181,11 +194,13 @@
     "id": 10000055,
     "reactants": [
       {
+        "id": 10000057,
         "smiles": "Cc1c(C(=O)/C=C/N(C)C)sc2nc3ccccc3n12",
         "label": "38",
         "text": " R = H, Ph"
       },
       {
+        "id": 10000060,
         "smiles": "Nc1cc(-c2ccccc2)nn1",
         "label": "16",
         "text": ". Generated with: R - H; R1 - Ph"
@@ -196,6 +211,7 @@
     ],
     "products": [
       {
+        "id": 10000061,
         "smiles": "Cc1c(C(=O)/C=C/Nc2cc(-c3ccccc3)nn2)sc2nc3ccccc3n12",
         "label": "39",
         "text": ". Generated with: R1 - Ph; R - H"
@@ -219,11 +235,13 @@
     "id": 10000062,
     "reactants": [
       {
+        "id": 10000064,
         "smiles": "Cc1c(C(=O)/C=C/N(C)C)sc2nc3ccccc3n12",
         "label": "38",
         "text": " R = H, Ph"
       },
       {
+        "id": 10000067,
         "smiles": "Nc1cc(-c2ccccc2)nn1-c1ccccc1",
         "label": "16",
         "text": ". Generated with: R - Ph; R1 - Ph"
@@ -234,6 +252,7 @@
     ],
     "products": [
       {
+        "id": 10000068,
         "smiles": "Cc1c(C(=O)/C=C/Nc2cc(-c3ccccc3)nn2-c2ccccc2)sc2nc3ccccc3n12",
         "label": "39",
         "text": ". Generated with: R1 - Ph; R - Ph"
@@ -257,11 +276,13 @@
     "id": 10000069,
     "reactants": [
       {
+        "id": 10000074,
         "smiles": "COc1ccc(-c2cc(N)nn2)cc1",
         "label": "16",
         "text": ". Generated with: R - H; R1 - 4-MeO-Ph"
       },
       {
+        "id": 10000071,
         "smiles": "Cc1c(C(=O)/C=C/N(C)C)sc2nc3ccccc3n12",
         "label": "38",
         "text": " R = H, Ph"
@@ -272,6 +293,7 @@
     ],
     "products": [
       {
+        "id": 10000075,
         "smiles": "COc1ccc(-c2cc(N/C=C/C(=O)c3sc4nc5ccccc5n4c3C)nn2)cc1",
         "label": "39",
         "text": ". Generated with: R1 - 4-MeO-Ph; R - H"
@@ -295,11 +317,13 @@
     "id": 10000076,
     "reactants": [
       {
+        "id": 10000081,
         "smiles": "COc1ccc(-c2cc(N)n(-c3ccccc3)n2)cc1",
         "label": "16",
         "text": ". Generated with: R - Ph; R1 - 4-MeO-Ph"
       },
       {
+        "id": 10000078,
         "smiles": "Cc1c(C(=O)/C=C/N(C)C)sc2nc3ccccc3n12",
         "label": "38",
         "text": " R = H, Ph"
@@ -310,6 +334,7 @@
     ],
     "products": [
       {
+        "id": 10000082,
         "smiles": "COc1ccc(-c2cc(N/C=C/C(=O)c3sc4nc5ccccc5n4c3C)n(-c3ccccc3)n2)cc1",
         "label": "39",
         "text": ". Generated with: R1 - 4-MeO-Ph; R - Ph"
@@ -333,6 +358,7 @@
     "id": 10000088,
     "reactants": [
       {
+        "id": 10000092,
         "smiles": "Cc1cc(N/C=C/C(=O)c2sc3nc4ccccc4n3c2C)nn1",
         "label": "39",
         "text": ". Generated with: R1 - Me; R - H"
@@ -343,6 +369,7 @@
     ],
     "products": [
       {
+        "id": 10000093,
         "smiles": "Cc1cc2nccc(-c3sc4nc5ccccc5n4c3C)n2n1",
         "label": "41",
         "text": ". Generated with: R1 - Me"
@@ -352,7 +379,7 @@
 
     ],
     "reagent_smiles": [
-      "O"
+
     ],
     "description": "R = H\nR1 = Me, 4-OMe-Ph\n- H2O",
     "temperature": "",
@@ -365,6 +392,7 @@
     "id": 10000094,
     "reactants": [
       {
+        "id": 10000098,
         "smiles": "COc1ccc(-c2cc(N/C=C/C(=O)c3sc4nc5ccccc5n4c3C)nn2)cc1",
         "label": "39",
         "text": ". Generated with: R1 - 4-OMe-Ph; R - H"
@@ -375,6 +403,7 @@
     ],
     "products": [
       {
+        "id": 10000099,
         "smiles": "COc1ccc(-c2cc3nccc(-c4sc5nc6ccccc6n5c4C)n3n2)cc1",
         "label": "41",
         "text": ". Generated with: R1 - 4-OMe-Ph"
@@ -384,7 +413,7 @@
 
     ],
     "reagent_smiles": [
-      "O"
+
     ],
     "description": "R = H\nR1 = Me, 4-OMe-Ph\n- H2O",
     "temperature": "",
@@ -397,6 +426,7 @@
     "id": 10000104,
     "reactants": [
       {
+        "id": 10000108,
         "smiles": "Cc1c(C(=O)/C=C/Nc2cc(-c3ccccc3)nn2-c2ccccc2)sc2nc3ccccc3n12",
         "label": "39",
         "text": ". Generated with: R1 - Ph; R - Ph"
@@ -407,6 +437,7 @@
     ],
     "products": [
       {
+        "id": 10000109,
         "smiles": "Cc1c(-c2ccnc3c2c(-c2ccccc2)nn3-c2ccccc2)sc2nc3ccccc3n12",
         "label": "40",
         "text": ". Generated with: R1 - Ph"
@@ -429,6 +460,7 @@
     "id": 10000110,
     "reactants": [
       {
+        "id": 10000114,
         "smiles": "COc1ccc(-c2cc(N/C=C/C(=O)c3sc4nc5ccccc5n4c3C)n(-c3ccccc3)n2)cc1",
         "label": "39",
         "text": ". Generated with: R1 - 4-OMe-Ph; R - Ph"
@@ -439,6 +471,7 @@
     ],
     "products": [
       {
+        "id": 10000115,
         "smiles": "COc1ccc(-c2nn(-c3ccccc3)c3nccc(-c4sc5nc6ccccc6n5c4C)c23)cc1",
         "label": "40",
         "text": ". Generated with: R1 - 4-OMe-Ph"

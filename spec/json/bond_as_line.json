@@ -3,6 +3,7 @@
     "id": 2848,
     "reactants": [
       {
+        "id": 2557,
         "smiles": "*C=C(S)S",
         "label": "6",
         "text": ": Ketene dithioacetal"
@@ -10,6 +11,7 @@
     ],
     "reagents": [
       {
+        "id": 2653,
         "smiles": "*/C=C/C(*)=O",
         "label": "3",
         "text": ""
@@ -17,6 +19,7 @@
     ],
     "products": [
       {
+        "id": 2528,
         "smiles": "*C(=O)CC(*)([H])C(*)=C(S)S",
         "label": "4 5",
         "text": "or"
@@ -40,6 +43,7 @@
     "id": 2849,
     "reactants": [
       {
+        "id": 2630,
         "smiles": "*CC(S)=[SH+]",
         "label": "1 2",
         "text": ": 5-member ring \n: 6-member ring Dithianylium TFB"
@@ -47,6 +51,7 @@
     ],
     "reagents": [
       {
+        "id": 2516,
         "smiles": "*/C=C/C(*)=O",
         "label": "3",
         "text": ""
@@ -54,6 +59,7 @@
     ],
     "products": [
       {
+        "id": 2528,
         "smiles": "*C(=O)CC(*)([H])C(*)=C(S)S",
         "label": "4 5",
         "text": "or"

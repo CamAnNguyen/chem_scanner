@@ -1,9 +1,9 @@
 [
   {
     "id": 167257,
-    "id_cdxml": 167273,
     "reactants": [
       {
+        "id": 164962,
         "smiles": "Oc1ccccc1Br",
         "label": "9",
         "text": ""
@@ -14,6 +14,7 @@
     ],
     "products": [
       {
+        "id": 164979,
         "smiles": "C=CCc1cccc(Br)c1O",
         "label": "11",
         "text": ""
@@ -54,13 +55,14 @@
     "yield": "",
     "time": "",
     "details": {
-    }
+    },
+    "id_cdxml": 167273
   },
   {
     "id": 167258,
-    "id_cdxml": 167274,
     "reactants": [
       {
+        "id": 165113,
         "smiles": "OC1Cc2cccc(Br)c2O1",
         "label": "12",
         "text": ""
@@ -68,6 +70,7 @@
     ],
     "reagents": [
       {
+        "id": 165047,
         "smiles": "CON(C)C(=O)C=P(c1ccccc1)(c1ccccc1)c1ccccc1",
         "label": "13",
         "text": ""
@@ -75,6 +78,7 @@
     ],
     "products": [
       {
+        "id": 165002,
         "smiles": "CON(C)C(=O)/C=C/Cc1cccc(Br)c1O",
         "label": "7",
         "text": ""
@@ -91,13 +95,14 @@
     "yield": "55%",
     "time": "",
     "details": {
-    }
+    },
+    "id_cdxml": 167274
   },
   {
     "id": 167260,
-    "id_cdxml": 167276,
     "reactants": [
       {
+        "id": 165137,
         "smiles": "C=CCc1cccc(C)c1O",
         "label": "10",
         "text": ""
@@ -105,6 +110,7 @@
     ],
     "reagents": [
       {
+        "id": 165047,
         "smiles": "CON(C)C(=O)C=P(c1ccccc1)(c1ccccc1)c1ccccc1",
         "label": "13",
         "text": ""
@@ -112,6 +118,7 @@
     ],
     "products": [
       {
+        "id": 165164,
         "smiles": "CON(C)C(=O)/C=C/Cc1cccc(C)c1O",
         "label": "8",
         "text": ""
@@ -150,13 +157,14 @@
     "yield": "48%",
     "time": "",
     "details": {
-    }
+    },
+    "id_cdxml": 167276
   },
   {
     "id": 167261,
-    "id_cdxml": 167277,
     "reactants": [
       {
+        "id": 164979,
         "smiles": "C=CCc1cccc(Br)c1O",
         "label": "11",
         "text": ""
@@ -167,6 +175,7 @@
     ],
     "products": [
       {
+        "id": 165113,
         "smiles": "OC1Cc2cccc(Br)c2O1",
         "label": "12",
         "text": ""
@@ -185,6 +194,7 @@
     "yield": "",
     "time": "",
     "details": {
-    }
+    },
+    "id_cdxml": 167277
   }
 ]

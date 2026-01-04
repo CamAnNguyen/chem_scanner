@@ -20,12 +20,12 @@ module ChemScanner
       end
 
       def process
-        return false unless @objects.class == Array
+        return false unless @objects.instance_of?(Array)
 
         builder = Nokogiri::XML::Builder.new do |cml|
-          cml.cml(CML_ATTR) {
+          cml.cml(CML_ATTR) do
             @molecule_only ? molecules_cml(cml) : reactions_cml(cml)
-          }
+          end
         end
 
         @output = builder.to_xml
@@ -40,7 +40,7 @@ module ChemScanner
       end
 
       def molecule_cml(molecule)
-        rw_mol = if molecule.class == OpenStruct
+        rw_mol = if molecule.instance_of?(OpenStruct)
                    RDKitChem::RWMol.mol_from_mol_block(molecule[:mdl])
                  else
                    molecule.rw_mol
@@ -50,9 +50,8 @@ module ChemScanner
 
       def molecule_cml_from_rw_mol(rw_mol)
         builder = Nokogiri::XML::Builder.new do |cml|
-          cml.molecule("spinMultiplicity" => "2") {
-
-            cml.atomArray {
+          cml.molecule("spinMultiplicity" => "2") do
+            cml.atomArray do
               (0..rw_mol.get_num_atoms - 1).each do |idx|
                 rd_atom = rw_mol.get_atom_with_idx(idx)
                 pos = rw_mol.get_conformer.get_atom_pos(0)
@@ -66,8 +65,8 @@ module ChemScanner
                   z3: 0,
                 )
               end
-            }
-            cml.bondArray {
+            end
+            cml.bondArray do
               (0..rw_mol.get_num_bonds - 1).each do |idx|
                 rd_bond = rw_mol.get_bond_with_idx(idx)
 
@@ -80,8 +79,8 @@ module ChemScanner
                   order: rd_bond.get_bond_type_as_double,
                 )
               end
-            }
-          }
+            end
+          end
         end
 
         builder.doc.root.to_s
@@ -93,44 +92,44 @@ module ChemScanner
       end
 
       def reactions_cml(cml)
-        cml.send("reactionList") {
+        cml.send("reactionList") do
           @objects.each do |r|
             reaction_attr = {
-              "id" => r.arrow_id
+              "id" => r.arrow_id,
             }
             reaction_attr["yield"] = r.yield unless r.yield.empty?
-            cml.reaction(reaction_attr) {
-              cml.reactantList {
+            cml.reaction(reaction_attr) do
+              cml.reactantList do
                 r.reactants.each do |reactant|
-                  cml.reactant {
+                  cml.reactant do
                     cml.parent << molecule_cml(reactant)
-                  }
+                  end
                 end
                 r.reagents.each do |reagent|
-                  cml.reactant("role" => "reagents") {
+                  cml.reactant("role" => "reagents") do
                     cml.parent << molecule_cml(reagent)
-                  }
+                  end
                 end
                 r.reagent_smiles.each do |smi|
-                  cml.reactant("role" => "reagents") {
+                  cml.reactant("role" => "reagents") do
                     mdl = mdl_from_smiles(smi)
                     cml.parent << molecule_cml(OpenStruct.new(mdl: mdl))
-                  }
+                  end
                 end
-              }
-              cml.productList {
+              end
+              cml.productList do
                 r.products.each do |prod|
-                  cml.product {
+                  cml.product do
                     cml.parent << molecule_cml(prod)
-                  }
+                  end
                 end
-              }
+              end
 
               reaction_condition_cml(cml, r)
               cml.description r.description unless r.description.empty?
-            }
+            end
           end
-        }
+        end
       end
 
       def reaction_condition_cml(cml, reaction)
@@ -154,22 +153,23 @@ module ChemScanner
         duration = nil
         unless reaction.time.empty?
           time = ChronicDuration.parse(reaction.time)
-          duration = ChronicDuration.output(time, :format => :chrono)
+          duration = ChronicDuration.output(time, format: :chrono)
         end
 
-        cml.conditionList {
+        cml.conditionList do
           unless temp.nil? || temp_unit.nil?
-            cml.scalar("dictRef" => "cml:temp", "units" => temp_unit) {
+            cml.scalar("dictRef" => "cml:temp", "units" => temp_unit) do
               cml.parent << temp
-            }
+            end
           end
 
           unless duration.nil?
-            cml.scalar("dictRef" => "cml:timeDuration", "units" => "xsd:date") {
+            cml.scalar("dictRef" => "cml:timeDuration",
+                       "units" => "xsd:date") do
               cml.parent << duration
-            }
+            end
           end
-        }
+        end
       end
     end
   end

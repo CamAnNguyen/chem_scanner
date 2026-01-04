@@ -10,10 +10,6 @@ module ChemScanner
 
   # Read and Parse DOCX
   class Docx < Doc
-    def initialize
-      super
-    end
-
     def read(file)
       dir = Dir.mktmpdir
       unzip_docx(file, dir)

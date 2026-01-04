@@ -1,29 +1,35 @@
 {
-  "881825": [
+  "881826": [
     {
       "id": 2849,
       "reactants": [
         {
-          "smiles": "O=C1CCCC2C1(Br)C(O)c1c(O2)cccc1",
+          "id": 2799,
+          "smiles": "[H]C12CCCC(=O)C1(Br)C(O)c1ccccc1O2",
           "label": "",
           "text": ""
         }
       ],
       "reagents": [
         {
-          "smiles": "COC(=C)C",
+          "id": 2854,
+          "smiles": "C=C(C)OC",
           "label": "",
           "text": ""
         }
       ],
       "products": [
         {
-          "smiles": "COC(OC1c2ccccc2OC2C1(Br)C(=O)CCC2)(C)C",
+          "id": 2734,
+          "smiles": "[H]C12CCCC(=O)C1(Br)C(OC(C)(C)OC)c1ccccc1O2",
           "label": "",
           "text": ""
         }
       ],
-      "steps": [], "reagent_smiles": [
+      "steps": [
+
+      ],
+      "reagent_smiles": [
         "ClP(=O)(Cl)Cl"
       ],
       "description": "POCl3",
@@ -37,13 +43,15 @@
       "id": 2863,
       "reactants": [
         {
-          "smiles": "COC(OC1c2ccccc2OC2C1(Br)C(=O)CCC2)(C)C",
+          "id": 2734,
+          "smiles": "[H]C12CCCC(=O)C1(Br)C(OC(C)(C)OC)c1ccccc1O2",
           "label": "",
           "text": ""
         }
       ],
       "reagents": [
         {
+          "id": 2867,
           "smiles": "C1CN2CCN1CC2",
           "label": "",
           "text": ""
@@ -51,12 +59,16 @@
       ],
       "products": [
         {
-          "smiles": "COC(OC1C2=C(CCCC2=O)Oc2c1cccc2)(C)C",
+          "id": 2890,
+          "smiles": "COC(C)(C)OC1C2=C(CCCC2=O)Oc2ccccc21",
           "label": "",
           "text": "Not analytically pure, but the TLC\nlooks really nice.\nWill do NMR and MS next week."
         }
       ],
-      "steps": [], "reagent_smiles": [
+      "steps": [
+
+      ],
+      "reagent_smiles": [
 
       ],
       "description": "~90 %",
