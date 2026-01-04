@@ -4,13 +4,15 @@
       "id": 4144,
       "reactants": [
         {
-          "smiles": "O=C1CCCC2C1=Cc1ccccc1O2",
+          "id": 4490,
+          "smiles": "O=C1CCCC2Oc3ccccc3C=C12",
           "label": "",
           "text": ""
         }
       ],
       "reagents": [
         {
+          "id": 4491,
           "smiles": "OCCO",
           "label": "",
           "text": ""
@@ -18,12 +20,16 @@
       ],
       "products": [
         {
-          "smiles": "C1CC2Oc3ccccc3C=C2C2(C1)OCCO2",
+          "id": 4498,
+          "smiles": "C1=C2C(CCCC23OCCO3)Oc2ccccc21",
           "label": "",
           "text": ""
         }
       ],
-      "steps": [], "reagent_smiles": [
+      "steps": [
+
+      ],
+      "reagent_smiles": [
         "OP(=O)(O)O"
       ],
       "description": "H3PO4, MePh, reflux, Dean-Starck trap, 17 h, 71% (based on recocvered educt)",
@@ -37,7 +43,8 @@
       "id": 4256,
       "reactants": [
         {
-          "smiles": "C1CC2Oc3ccccc3C=C2C2(C1)OCCO2",
+          "id": 4493,
+          "smiles": "C1=C2C(CCCC23OCCO3)Oc2ccccc21",
           "label": "",
           "text": ""
         }
@@ -47,17 +54,22 @@
       ],
       "products": [
         {
-          "smiles": "COC1c2ccccc2OC2C1(Br)C1(CCC2)OCCO1",
+          "id": 4499,
+          "smiles": "[H]C12CCCC3(OCCO3)C1(Br)C(OC)c1ccccc1O2",
           "label": "",
           "text": "32 %"
         },
         {
-          "smiles": "COC1c2ccccc2OC2C1(Br)C1(C[CH+]C2)OCCO1",
-          "label": " ",
+          "id": 4494,
+          "smiles": "[H]C12C[CH+]CC3(OCCO3)C1(Br)C(OC)c1ccccc1O2",
+          "label": "",
           "text": "+ 54 %"
         }
       ],
-      "steps": [], "reagent_smiles": [
+      "steps": [
+
+      ],
+      "reagent_smiles": [
         "BrN1C(=O)CCC1=O",
         "CO",
         "ClCCl"
@@ -73,8 +85,9 @@
       "id": 4417,
       "reactants": [
         {
-          "smiles": "COC1c2ccccc2OC2C1(Br)C1(C[CH+]C2)OCCO1",
-          "label": " ",
+          "id": 4494,
+          "smiles": "[H]C12C[CH+]CC3(OCCO3)C1(Br)C(OC)c1ccccc1O2",
+          "label": "",
           "text": "+ 54 %"
         }
       ],
@@ -83,12 +96,16 @@
       ],
       "products": [
         {
-          "smiles": "COC1c2ccccc2OC2=C1C1(CCC2)OCCO1",
+          "id": 4496,
+          "smiles": "COC1C2=C(CCCC23OCCO3)Oc2ccccc21",
           "label": "",
           "text": "73%, + 18% educt"
         }
       ],
-      "steps": [], "reagent_smiles": [
+      "steps": [
+
+      ],
+      "reagent_smiles": [
         "C1CN2CCN1CC2"
       ],
       "description": "2.5 Equiv. \nDABCO, 4 d",
@@ -102,7 +119,8 @@
       "id": 4420,
       "reactants": [
         {
-          "smiles": "COC1c2ccccc2OC2C1(Br)C1(CCC2)OCCO1",
+          "id": 4499,
+          "smiles": "[H]C12CCCC3(OCCO3)C1(Br)C(OC)c1ccccc1O2",
           "label": "",
           "text": "32 %"
         }
@@ -113,7 +131,10 @@
       "products": [
 
       ],
-      "steps": [], "reagent_smiles": [
+      "steps": [
+
+      ],
+      "reagent_smiles": [
 
       ],
       "description": "",

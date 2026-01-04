@@ -4,7 +4,8 @@
       "id": 35,
       "reactants": [
         {
-          "smiles": "[O-][N+](=O)c1ccc(c(c1)C(=O)O)N",
+          "id": 5,
+          "smiles": "Nc1ccc([N+](=O)[O-])cc1C(=O)O",
           "label": "",
           "text": ""
         }
@@ -14,12 +15,43 @@
       ],
       "products": [
         {
-          "smiles": "OC(=O)c1cc(ccc1/N=N/N1CCCC1)[N+](=O)[O-]",
+          "id": 39,
+          "smiles": "O=C(O)c1cc([N+](=O)[O-])ccc1/N=N/N1CCCC1",
           "label": "",
           "text": ""
         }
       ],
-      "steps": [], "reagent_smiles": [
+      "steps": [
+        {
+          "number": 1,
+          "description": "KOH, NaNO2\n",
+          "time": "",
+          "temperature": "",
+          "reagents": [
+            "[K+].[OH-]",
+            "[O-]N=O.[Na+]"
+          ]
+        },
+        {
+          "number": 2,
+          "description": "HCl\n",
+          "time": "",
+          "temperature": "",
+          "reagents": [
+            "Cl"
+          ]
+        },
+        {
+          "number": 3,
+          "description": "KAc, Pyrollidin",
+          "time": "",
+          "temperature": "",
+          "reagents": [
+
+          ]
+        }
+      ],
+      "reagent_smiles": [
         "Cl",
         "[K+].[OH-]",
         "[O-]N=O.[Na+]"
@@ -32,17 +64,19 @@
       }
     }
   ],
-  "750425": [
+  "750426": [
     {
       "id": 129,
       "reactants": [
         {
+          "id": 122,
           "smiles": "CCCl",
           "label": "",
           "text": ""
         },
         {
-          "smiles": "OC(=O)c1cc(ccc1/N=N/N1CCCC1)[N+](=O)[O-]",
+          "id": 39,
+          "smiles": "O=C(O)c1cc([N+](=O)[O-])ccc1/N=N/N1CCCC1",
           "label": "",
           "text": "+"
         }
@@ -52,13 +86,16 @@
       ],
       "products": [
         {
-          "smiles": "CCOC(=O)c1cc(ccc1/N=N/N1CCCC1)[N+](=O)[O-]",
+          "id": 139,
+          "smiles": "CCOC(=O)c1cc([N+](=O)[O-])ccc1/N=N/N1CCCC1",
           "label": "",
           "text": ""
         }
       ],
-      "steps": [], "reagent_smiles": [
-        "O=CN(C)C",
+      "steps": [
+
+      ],
+      "reagent_smiles": [
         "[O-]C(=O)[O-].[Cs+].[Cs+]"
       ],
       "description": "Cs2CO3\nDMF",
@@ -69,11 +106,12 @@
       }
     }
   ],
-  "419637": [
+  "419638": [
     {
       "id": 35,
       "reactants": [
         {
+          "id": 122,
           "smiles": "CCNC(c1ccccc1)c1ccccc1",
           "label": "",
           "text": "MS 056"
@@ -84,15 +122,18 @@
       ],
       "products": [
         {
-          "smiles": "CC[N+](=C(c1ccccc1)c1ccccc1)[O-]",
+          "id": 254,
+          "smiles": "CC[N+]([O-])=C(c1ccccc1)c1ccccc1",
           "label": "",
           "text": ""
         }
       ],
-      "steps": [], "reagent_smiles": [
+      "steps": [
+
+      ],
+      "reagent_smiles": [
         "C1CCCO1",
         "CO",
-        "O",
         "OO"
       ],
       "description": "THF/MeOH  1:1\nH2O2 35%-ig, 4,4 eq.\nNaWO4 * 2 H2O\nRT, 24 h.",
@@ -103,12 +144,13 @@
       }
     }
   ],
-  "892149": [
+  "8921411": [
     {
       "id": 365,
       "reactants": [
         {
-          "smiles": "CCN(C(c1ccccc1)c1ccccc1)C(=O)c1cc(ccc1N)[N+](=O)[O-]",
+          "id": 122,
+          "smiles": "CCN(C(=O)c1cc([N+](=O)[O-])ccc1N)C(c1ccccc1)c1ccccc1",
           "label": "",
           "text": ""
         }
@@ -118,12 +160,16 @@
       ],
       "products": [
         {
-          "smiles": "CCN(C(=O)c1cc(ccc1[N+]#N)[N+](=O)[O-])C(c1ccccc1)c1ccccc1",
+          "id": 366,
+          "smiles": "CCN(C(=O)c1cc([N+](=O)[O-])ccc1[N+]#N)C(c1ccccc1)c1ccccc1",
           "label": "",
           "text": "BF4-"
         }
       ],
-      "steps": [], "reagent_smiles": [
+      "steps": [
+
+      ],
+      "reagent_smiles": [
         "C1CCCO1",
         "FB(F)F"
       ],

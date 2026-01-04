@@ -3,11 +3,13 @@
     "id": 38508,
     "reactants": [
       {
+        "id": 38353,
         "smiles": "Ic1ccc(N2CCOCC2)cc1",
         "label": "",
         "text": "66 examples (39-87%)"
       },
       {
+        "id": 38392,
         "smiles": "OB(O)c1ccccc1",
         "label": "",
         "text": "+"
@@ -15,6 +17,7 @@
     ],
     "reagents": [
       {
+        "id": 38452,
         "smiles": "COc1ccnc(-c2cc(OC)ccn2)c1",
         "label": "",
         "text": "ligand ="
@@ -22,6 +25,7 @@
     ],
     "products": [
       {
+        "id": 38409,
         "smiles": "O=S(=O)(c1ccccc1)c1ccc(N2CCOCC2)cc1",
         "label": "",
         "text": "71%"

@@ -4,7 +4,8 @@
       "id": 82,
       "reactants": [
         {
-          "smiles": "COC(=O)C1CC2(OCCO2)CCC1=O",
+          "id": 5,
+          "smiles": "COC(=O)C1CC2(CCC1=O)OCCO2",
           "label": "",
           "text": ""
         }
@@ -14,12 +15,16 @@
       ],
       "products": [
         {
-          "smiles": "COC(=O)C1(Br)CC2(OCCO2)CCC1=O",
+          "id": 48,
+          "smiles": "COC(=O)C1(Br)CC2(CCC1=O)OCCO2",
           "label": "",
           "text": ""
         }
       ],
-      "steps": [], "reagent_smiles": [
+      "steps": [
+
+      ],
+      "reagent_smiles": [
         "BrN1C(=O)CCC1=O"
       ],
       "description": "NBS, Base",
@@ -35,6 +40,7 @@
       "id": 66,
       "reactants": [
         {
+          "id": 5,
           "smiles": "C=CC1=CC(=O)CCC1",
           "label": "",
           "text": ""
@@ -42,6 +48,7 @@
       ],
       "reagents": [
         {
+          "id": 68,
           "smiles": "OCCO",
           "label": "",
           "text": ""
@@ -49,12 +56,16 @@
       ],
       "products": [
         {
+          "id": 34,
           "smiles": "C=CC1=CC2(CCC1)OCCO2",
           "label": "",
           "text": ""
         }
       ],
-      "steps": [], "reagent_smiles": [
+      "steps": [
+
+      ],
+      "reagent_smiles": [
         "Cc1ccc(cc1)S(=O)(=O)O"
       ],
       "description": "pTsOH, Benzol, Δ",

@@ -1,9 +1,9 @@
 [
   {
     "id": 9068,
-    "id_cdxml": 9073,
     "reactants": [
       {
+        "id": 8577,
         "smiles": "O=C1NC(c2ccc(Cl)cc2)=NC2C3C=CC(C3)C12",
         "label": "",
         "text": "n  "
@@ -14,6 +14,7 @@
     ],
     "products": [
       {
+        "id": 8619,
         "smiles": "O=c1ccnc(-c2ccc(Cl)cc2)[nH]1",
         "label": "9",
         "text": ""
@@ -30,13 +31,14 @@
     "yield": "",
     "time": "",
     "details": {
-    }
+    },
+    "id_cdxml": 9073
   },
   {
     "id": 9069,
-    "id_cdxml": 9074,
     "reactants": [
       {
+        "id": 6745,
         "smiles": "*C1CCC2=NC3C4C=CC(C4)C3C(=O)N21",
         "label": "3-6",
         "text": "(  )m  di-exo"
@@ -47,6 +49,7 @@
     ],
     "products": [
       {
+        "id": 7929,
         "smiles": "*C1CCc2nccc(=O)n21",
         "label": "10-13",
         "text": "(  )m "
@@ -63,13 +66,14 @@
     "yield": "",
     "time": "10 m;11 m;12 m;13 m",
     "details": {
-    }
+    },
+    "id_cdxml": 9074
   },
   {
     "id": 9070,
-    "id_cdxml": 9075,
     "reactants": [
       {
+        "id": 8285,
         "smiles": "O=C1C2C3C=CC(C3)C2NC(=S)N1c1ccccc1",
         "label": "",
         "text": "n di-exo, n = 1\n: di-endo : n = 1, : n = 2  "
@@ -80,6 +84,7 @@
     ],
     "products": [
       {
+        "id": 8412,
         "smiles": "O=c1cc[nH]c(=S)n1-c1ccccc1",
         "label": "14",
         "text": ""
@@ -96,13 +101,14 @@
     "yield": "",
     "time": "",
     "details": {
-    }
+    },
+    "id_cdxml": 9075
   },
   {
     "id": 10000024,
-    "id_cdxml": 10000024,
     "reactants": [
       {
+        "id": 10000028,
         "smiles": "O=C1NC(c2ccc(Cl)cc2)=NC2C3C=CC(C3)C12",
         "label": "1",
         "text": "n  "
@@ -113,6 +119,7 @@
     ],
     "products": [
       {
+        "id": 10000027,
         "smiles": "O=c1ccnc(-c2ccc(Cl)cc2)[nH]1",
         "label": "9",
         "text": ""
@@ -129,13 +136,14 @@
     "yield": "",
     "time": "",
     "details": {
-    }
+    },
+    "id_cdxml": 10000024
   },
   {
     "id": 10000029,
-    "id_cdxml": 10000029,
     "reactants": [
       {
+        "id": 10000033,
         "smiles": "O=C1NC(c2ccc(Cl)cc2)=NC2C3C=CC(C3)C12",
         "label": "2a",
         "text": "n  "
@@ -146,6 +154,7 @@
     ],
     "products": [
       {
+        "id": 10000032,
         "smiles": "O=c1ccnc(-c2ccc(Cl)cc2)[nH]1",
         "label": "9",
         "text": ""
@@ -162,13 +171,14 @@
     "yield": "",
     "time": "",
     "details": {
-    }
+    },
+    "id_cdxml": 10000029
   },
   {
     "id": 10000034,
-    "id_cdxml": 10000034,
     "reactants": [
       {
+        "id": 10000038,
         "smiles": "O=C1NC(c2ccc(Cl)cc2)=NC2C3C=CC(CC3)C12",
         "label": "2b",
         "text": "n  . Generated with: n - 2"
@@ -179,6 +189,7 @@
     ],
     "products": [
       {
+        "id": 10000037,
         "smiles": "O=c1ccnc(-c2ccc(Cl)cc2)[nH]1",
         "label": "9",
         "text": ""
@@ -195,12 +206,14 @@
     "yield": "",
     "time": "",
     "details": {
-    }
+    },
+    "id_cdxml": 10000034
   },
   {
     "id": 10000041,
     "reactants": [
       {
+        "id": 10000045,
         "smiles": "O=C1C2C3C=CC(C3)C2N=C2CCCN12",
         "label": "3",
         "text": "(  )m  di-exo. Generated with: R - H"
@@ -211,6 +224,7 @@
     ],
     "products": [
       {
+        "id": 10000046,
         "smiles": "O=c1ccnc2n1CCC2",
         "label": "10",
         "text": "(  )m . Generated with: R - H"
@@ -227,12 +241,14 @@
     "yield": "",
     "time": "10 m;11 m;12 m;13 m",
     "details": {
-    }
+    },
+    "id_cdxml": 10000041
   },
   {
     "id": 10000047,
     "reactants": [
       {
+        "id": 10000051,
         "smiles": "CC1CCC2=NC3C4C=CC(C4)C3C(=O)N21",
         "label": "4",
         "text": "(  )m  di-exo. Generated with: R - Me"
@@ -243,6 +259,7 @@
     ],
     "products": [
       {
+        "id": 10000052,
         "smiles": "CC1CCc2nccc(=O)n21",
         "label": "11",
         "text": "(  )m . Generated with: R - Me"
@@ -259,12 +276,14 @@
     "yield": "",
     "time": "10 m;11 m;12 m;13 m",
     "details": {
-    }
+    },
+    "id_cdxml": 10000047
   },
   {
     "id": 10000053,
     "reactants": [
       {
+        "id": 10000057,
         "smiles": "O=C1C2C3C=CC(C3)C2N=C2CCCCN12",
         "label": "5",
         "text": "(  )m  di-exo. Generated with: R - H; m - 2"
@@ -275,6 +294,7 @@
     ],
     "products": [
       {
+        "id": 10000060,
         "smiles": "O=c1ccnc2n1CCCC2",
         "label": "12",
         "text": "(  )m . Generated with: R - H; m - 2"
@@ -291,13 +311,14 @@
     "yield": "",
     "time": "10 m;11 m;12 m;13 m",
     "details": {
-    }
+    },
+    "id_cdxml": 10000053
   },
   {
     "id": 10000063,
-    "id_cdxml": 10000063,
     "reactants": [
       {
+        "id": 10000067,
         "smiles": "O=C1C2C3C=CC(C3)C2N=C2CCCCCN12",
         "label": "6",
         "text": "(  )m  di-exo. Generated with: R - H; m - 3"
@@ -308,6 +329,7 @@
     ],
     "products": [
       {
+        "id": 10000071,
         "smiles": "O=c1ccnc2n1CCCCC2",
         "label": "13",
         "text": "(  )m . Generated with: R - H; m - 3"
@@ -324,12 +346,14 @@
     "yield": "",
     "time": "10 m;11 m;12 m;13 m",
     "details": {
-    }
+    },
+    "id_cdxml": 10000063
   },
   {
     "id": 10000075,
     "reactants": [
       {
+        "id": 10000079,
         "smiles": "O=C1C2C3C=CC(C3)C2NC(=S)N1c1ccccc1",
         "label": "7",
         "text": "n di-exo, n = 1\n: di-endo : n = 1, : n = 2  "
@@ -340,6 +364,7 @@
     ],
     "products": [
       {
+        "id": 10000078,
         "smiles": "O=c1cc[nH]c(=S)n1-c1ccccc1",
         "label": "14",
         "text": ""
@@ -356,12 +381,14 @@
     "yield": "",
     "time": "",
     "details": {
-    }
+    },
+    "id_cdxml": 10000075
   },
   {
     "id": 10000080,
     "reactants": [
       {
+        "id": 10000084,
         "smiles": "O=C1C2C3C=CC(C3)C2NC(=S)N1c1ccccc1",
         "label": "8a",
         "text": "n di-exo, n = 1\n: di-endo : n = 1, : n = 2  "
@@ -372,6 +399,7 @@
     ],
     "products": [
       {
+        "id": 10000083,
         "smiles": "O=c1cc[nH]c(=S)n1-c1ccccc1",
         "label": "14",
         "text": ""
@@ -388,12 +416,14 @@
     "yield": "",
     "time": "",
     "details": {
-    }
+    },
+    "id_cdxml": 10000080
   },
   {
     "id": 10000085,
     "reactants": [
       {
+        "id": 10000089,
         "smiles": "O=C1C2C3C=CC(CC3)C2NC(=S)N1c1ccccc1",
         "label": "8b",
         "text": "n di-exo, n = 1\n: di-endo : n = 1, : n = 2  . Generated with: n - 2"
@@ -404,6 +434,7 @@
     ],
     "products": [
       {
+        "id": 10000088,
         "smiles": "O=c1cc[nH]c(=S)n1-c1ccccc1",
         "label": "14",
         "text": ""
@@ -420,6 +451,7 @@
     "yield": "",
     "time": "",
     "details": {
-    }
+    },
+    "id_cdxml": 10000085
   }
 ]

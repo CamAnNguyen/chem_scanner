@@ -4,13 +4,15 @@
       "id": 4144,
       "reactants": [
         {
-          "smiles": "O=C1CCCC2C1=Cc1ccccc1O2",
+          "id": 4393,
+          "smiles": "O=C1CCCC2Oc3ccccc3C=C12",
           "label": "",
           "text": ""
         }
       ],
       "reagents": [
         {
+          "id": 4394,
           "smiles": "OCCO",
           "label": "",
           "text": ""
@@ -18,12 +20,16 @@
       ],
       "products": [
         {
-          "smiles": "C1CC2Oc3ccccc3C=C2C2(C1)OCCO2",
+          "id": 4404,
+          "smiles": "C1=C2C(CCCC23OCCO3)Oc2ccccc21",
           "label": "",
           "text": ""
         }
       ],
-      "steps": [], "reagent_smiles": [
+      "steps": [
+
+      ],
+      "reagent_smiles": [
 
       ],
       "description": "*What´s the english word?\nTosOH, MePh, reflux, Wasser- abscheider*, 4 h 23 %",
@@ -37,7 +43,8 @@
       "id": 4256,
       "reactants": [
         {
-          "smiles": "C1CC2Oc3ccccc3C=C2C2(C1)OCCO2",
+          "id": 4396,
+          "smiles": "C1=C2C(CCCC23OCCO3)Oc2ccccc21",
           "label": "",
           "text": ""
         }
@@ -47,17 +54,22 @@
       ],
       "products": [
         {
-          "smiles": "COC1c2cc(Br)ccc2OC2C1(Br)C1(C[CH+]C2)OCCO1",
-          "label": " ",
-          "text": "+ 42 %"
-        },
-        {
-          "smiles": "COC1c2ccccc2OC2C1(Br)C1(CCC2)OCCO1",
+          "id": 4405,
+          "smiles": "[H]C12CCCC3(OCCO3)C1(Br)C(OC)c1ccccc1O2",
           "label": "",
           "text": "56 %"
+        },
+        {
+          "id": 4397,
+          "smiles": "[H]C12C[CH+]CC3(OCCO3)C1(Br)C(OC)c1cc(Br)ccc1O2",
+          "label": "",
+          "text": "+ 42 %"
         }
       ],
-      "steps": [], "reagent_smiles": [
+      "steps": [
+
+      ],
+      "reagent_smiles": [
         "BrN1C(=O)CCC1=O",
         "CO",
         "ClCCl"

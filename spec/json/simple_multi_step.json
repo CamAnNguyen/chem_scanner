@@ -1,35 +1,58 @@
 [
   {
-    "id": 3687,
-    "id_cdxml": 3687,
     "reactants": [
       {
-        "smiles": "F[B-](F)(F)F.*CC1=[S+]CCS1",
+        "id": 2418,
+        "smiles": "*CC1=[S+]CCS1.F[B-](F)(F)F",
         "label": "1",
         "text": ""
       }
     ],
     "reagents": [
       {
-        "smiles": "O=[S@@](C(C)(C)C)/N=C(\\c1ccccc1)/C=C/c1ccccc1",
+        "id": 2962,
+        "smiles": "CC(C)(C)[S@](=O)/N=C(/C=C/c1ccccc1)c1ccccc1",
         "label": "14",
         "text": ""
       }
     ],
     "products": [
       {
-        "smiles": "CCC(=C1SCCS1)C(c1ccccc1)CC(=O)c1ccccc1",
+        "id": 2932,
+        "smiles": "CCC(=C1SCCS1)C(CC(=O)c1ccccc1)c1ccccc1",
         "label": "15",
         "text": ": 33%, 80% ee"
       }
     ],
-    "steps": [], "reagent_smiles": [
-      "O"
+    "steps": [
+      {
+        "number": 1,
+        "description": "\n",
+        "time": "",
+        "temperature": "",
+        "reagents": [
+          "CC(C)(C)[S@](=O)/N=C(/C=C/c1ccccc1)c1ccccc1"
+        ]
+      },
+      {
+        "number": 2,
+        "description": "H2O",
+        "time": "",
+        "temperature": "",
+        "reagents": [
+
+        ]
+      }
+    ],
+    "reagent_smiles": [
+
     ],
     "description": "1)\n2) H2O",
     "temperature": "",
     "yield": "33%",
     "time": "",
-    "details": null
+    "details": {
+    },
+    "id_cdxml": 3687
   }
 ]

@@ -3,6 +3,7 @@
     "id": 4056,
     "reactants": [
       {
+        "id": 3334,
         "smiles": "COc1cc2ccncc2cc1OCc1ccccc1",
         "label": "3",
         "text": ""
@@ -13,6 +14,7 @@
     ],
     "products": [
       {
+        "id": 3416,
         "smiles": "COc1cc2ccnc(CN(C)C)c2cc1OCc1ccccc1",
         "label": "5",
         "text": "(37%)"
@@ -56,6 +58,7 @@
     "id": 4057,
     "reactants": [
       {
+        "id": 3416,
         "smiles": "COc1cc2ccnc(CN(C)C)c2cc1OCc1ccccc1",
         "label": "5",
         "text": "(37%)"
@@ -66,6 +69,7 @@
     ],
     "products": [
       {
+        "id": 3474,
         "smiles": "COc1cc2ccnc(CN(C)C)c2cc1O",
         "label": "6",
         "text": "(92%)"
@@ -91,6 +95,7 @@
     "id": 4058,
     "reactants": [
       {
+        "id": 3416,
         "smiles": "COc1cc2ccnc(CN(C)C)c2cc1OCc1ccccc1",
         "label": "5",
         "text": "(37%)"
@@ -101,6 +106,7 @@
     ],
     "products": [
       {
+        "id": 3602,
         "smiles": "COc1cc2ccnc(C[N+](C)(C)C)c2cc1OCc1ccccc1.[I-]",
         "label": "7",
         "text": "(78%)"
@@ -124,6 +130,7 @@
     "id": 4059,
     "reactants": [
       {
+        "id": 3602,
         "smiles": "COc1cc2ccnc(C[N+](C)(C)C)c2cc1OCc1ccccc1.[I-]",
         "label": "7",
         "text": "(78%)"
@@ -134,6 +141,7 @@
     ],
     "products": [
       {
+        "id": 3690,
         "smiles": "COc1cc2ccnc(C)c2cc1OCc1ccccc1",
         "label": "4",
         "text": "(54%)"
@@ -158,6 +166,7 @@
     "id": 4060,
     "reactants": [
       {
+        "id": 3602,
         "smiles": "COc1cc2ccnc(C[N+](C)(C)C)c2cc1OCc1ccccc1.[I-]",
         "label": "7",
         "text": "(78%)"
@@ -168,6 +177,7 @@
     ],
     "products": [
       {
+        "id": 3761,
         "smiles": "COc1cc2ccnc(C)c2cc1O",
         "label": "1",
         "text": "(94%)"

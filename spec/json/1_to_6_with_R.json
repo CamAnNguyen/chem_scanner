@@ -1,9 +1,9 @@
 [
   {
     "id": 3666,
-    "id_cdxml": 3683,
     "reactants": [
       {
+        "id": 2418,
         "smiles": "*CC1=[S+]CCS1.F[B-](F)(F)F",
         "label": "1",
         "text": ""
@@ -11,6 +11,7 @@
     ],
     "reagents": [
       {
+        "id": 2709,
         "smiles": "*/C=C/C(=O)OC",
         "label": "12a 12b",
         "text": "or"
@@ -18,6 +19,7 @@
     ],
     "products": [
       {
+        "id": 2721,
         "smiles": "*C(CC(=O)OC)C(CC)=C1SCCS1",
         "label": "13a 13b",
         "text": ":  R2 = H, 24% (quanta)\n:  R2 = CO2Me,  17% (60%a)"
@@ -34,13 +36,14 @@
     "yield": "24%",
     "time": "1-2 d",
     "details": {
-    }
+    },
+    "id_cdxml": 3683
   },
   {
     "id": 3667,
-    "id_cdxml": 3684,
     "reactants": [
       {
+        "id": 2418,
         "smiles": "*CC1=[S+]CCS1.F[B-](F)(F)F",
         "label": "1",
         "text": ""
@@ -48,6 +51,7 @@
     ],
     "reagents": [
       {
+        "id": 2962,
         "smiles": "CC(C)(C)[S@](=O)/N=C(/C=C/c1ccccc1)c1ccccc1",
         "label": "14",
         "text": ""
@@ -55,6 +59,7 @@
     ],
     "products": [
       {
+        "id": 2932,
         "smiles": "CCC(=C1SCCS1)C(CC(=O)c1ccccc1)c1ccccc1",
         "label": "15",
         "text": ": 33%, 80% ee"
@@ -76,25 +81,26 @@
         "time": "",
         "temperature": "",
         "reagents": [
-          "O"
+
         ]
       }
     ],
     "reagent_smiles": [
-      "O"
+
     ],
     "description": "1)\n2) H2O",
     "temperature": "",
     "yield": "33%",
     "time": "",
     "details": {
-    }
+    },
+    "id_cdxml": 3684
   },
   {
     "id": 3668,
-    "id_cdxml": 3685,
     "reactants": [
       {
+        "id": 2418,
         "smiles": "*CC1=[S+]CCS1.F[B-](F)(F)F",
         "label": "1",
         "text": ""
@@ -105,6 +111,7 @@
     ],
     "products": [
       {
+        "id": 3119,
         "smiles": "*C(CC(C)O)C(=C1SCCS1)c1ccccc1",
         "label": "16a 16b",
         "text": ": R2 = H, 94%\n: R2 = Me, 99% (dr = 9:3)b"
@@ -140,13 +147,14 @@
     "yield": "94%",
     "time": "",
     "details": {
-    }
+    },
+    "id_cdxml": 3685
   },
   {
     "id": 3669,
-    "id_cdxml": 3686,
     "reactants": [
       {
+        "id": 2418,
         "smiles": "*CC1=[S+]CCS1.F[B-](F)(F)F",
         "label": "1",
         "text": ""
@@ -157,6 +165,7 @@
     ],
     "products": [
       {
+        "id": 3173,
         "smiles": "*C(=C1SCCS1)C1CCCC(=O)C1",
         "label": "9i 9j",
         "text": ": R1 = Cl, 24% \n: R1 = -CH2CH2Cl, 64%"
@@ -173,13 +182,14 @@
     "yield": "24%",
     "time": "",
     "details": {
-    }
+    },
+    "id_cdxml": 3686
   },
   {
     "id": 10000038,
-    "id_cdxml": 10000038,
     "reactants": [
       {
+        "id": 10000040,
         "smiles": "*CC1=[S+]CCS1.F[B-](F)(F)F",
         "label": "1",
         "text": ""
@@ -187,6 +197,7 @@
     ],
     "reagents": [
       {
+        "id": 10000041,
         "smiles": "*/C=C/C(=O)OC",
         "label": "12a 12b",
         "text": "or"
@@ -194,6 +205,7 @@
     ],
     "products": [
       {
+        "id": 10000043,
         "smiles": "CCC(CCC(=O)OC)=C1SCCS1",
         "label": "13a",
         "text": ":  R2 = H, 24% (quanta)\n:  R2 = CO2Me,  17% (60%a). Generated with: R2 - H"
@@ -210,13 +222,14 @@
     "yield": "24%",
     "time": "1-2 d",
     "details": {
-    }
+    },
+    "id_cdxml": 10000038
   },
   {
     "id": 10000044,
-    "id_cdxml": 10000044,
     "reactants": [
       {
+        "id": 10000046,
         "smiles": "*CC1=[S+]CCS1.F[B-](F)(F)F",
         "label": "1",
         "text": ""
@@ -224,6 +237,7 @@
     ],
     "reagents": [
       {
+        "id": 10000047,
         "smiles": "*/C=C/C(=O)OC",
         "label": "12a 12b",
         "text": "or"
@@ -231,6 +245,7 @@
     ],
     "products": [
       {
+        "id": 10000049,
         "smiles": "CCC(=C1SCCS1)C(CC(=O)OC)C(=O)OC",
         "label": "13b",
         "text": ":  R2 = H, 24% (quanta)\n:  R2 = CO2Me,  17% (60%a). Generated with: R2 - CO2Me"
@@ -247,13 +262,14 @@
     "yield": "24%",
     "time": "1-2 d",
     "details": {
-    }
+    },
+    "id_cdxml": 10000044
   },
   {
     "id": 10000055,
-    "id_cdxml": 10000055,
     "reactants": [
       {
+        "id": 10000057,
         "smiles": "*CC1=[S+]CCS1.F[B-](F)(F)F",
         "label": "1",
         "text": ""
@@ -264,6 +280,7 @@
     ],
     "products": [
       {
+        "id": 10000059,
         "smiles": "CC(O)CCC(=C1SCCS1)c1ccccc1",
         "label": "16a",
         "text": ": R2 = H, 94%\n: R2 = Me, 99% (dr = 9:3)b. Generated with: R2 - H"
@@ -281,13 +298,14 @@
     "yield": "94%",
     "time": "",
     "details": {
-    }
+    },
+    "id_cdxml": 10000055
   },
   {
     "id": 10000060,
-    "id_cdxml": 10000060,
     "reactants": [
       {
+        "id": 10000062,
         "smiles": "*CC1=[S+]CCS1.F[B-](F)(F)F",
         "label": "1",
         "text": ""
@@ -298,6 +316,7 @@
     ],
     "products": [
       {
+        "id": 10000064,
         "smiles": "CC(O)CC(C)C(=C1SCCS1)c1ccccc1",
         "label": "16b",
         "text": ": R2 = H, 94%\n: R2 = Me, 99% (dr = 9:3)b. Generated with: R2 - Me"
@@ -315,13 +334,14 @@
     "yield": "94%",
     "time": "",
     "details": {
-    }
+    },
+    "id_cdxml": 10000060
   },
   {
     "id": 10000065,
-    "id_cdxml": 10000065,
     "reactants": [
       {
+        "id": 10000067,
         "smiles": "*CC1=[S+]CCS1.F[B-](F)(F)F",
         "label": "1",
         "text": ""
@@ -332,6 +352,7 @@
     ],
     "products": [
       {
+        "id": 10000069,
         "smiles": "O=C1CCCC(C(Cl)=C2SCCS2)C1",
         "label": "9i",
         "text": ": R1 = Cl, 24% \n: R1 = -CH2CH2Cl, 64%. Generated with: R1 - Cl"
@@ -348,13 +369,14 @@
     "yield": "24%",
     "time": "",
     "details": {
-    }
+    },
+    "id_cdxml": 10000065
   },
   {
     "id": 10000070,
-    "id_cdxml": 10000070,
     "reactants": [
       {
+        "id": 10000072,
         "smiles": "*CC1=[S+]CCS1.F[B-](F)(F)F",
         "label": "1",
         "text": ""
@@ -365,6 +387,7 @@
     ],
     "products": [
       {
+        "id": 10000074,
         "smiles": "O=C1CCCC(C(CCCl)=C2SCCS2)C1",
         "label": "9j",
         "text": ": R1 = Cl, 24% \n: R1 = -CH2CH2Cl, 64%. Generated with: R1 - CH2CH2Cl"
@@ -381,6 +404,7 @@
     "yield": "24%",
     "time": "",
     "details": {
-    }
+    },
+    "id_cdxml": 10000070
   }
 ]

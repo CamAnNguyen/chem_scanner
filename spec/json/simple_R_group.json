@@ -1,9 +1,9 @@
 [
   {
     "id": 5519,
-    "id_cdxml": 5539,
     "reactants": [
       {
+        "id": 75,
         "smiles": "*OC(*)(C#C)c1ccccc1CCC=C",
         "label": "",
         "text": "R1 = H, Me, Et, Allyl, (CH2)2Ph R2 = Piv, Ac"
@@ -11,13 +11,15 @@
     ],
     "reagents": [
       {
-        "smiles": "Cl[Au]*c1ccc2ccccc2c1-c1c(*[Au]Cl)ccc2ccccc12",
+        "id": 168,
+        "smiles": "[Cl][Au][*]c1ccc2ccccc2c1-c1c([*][Au][Cl])ccc2ccccc12",
         "label": "",
         "text": ""
       }
     ],
     "products": [
       {
+        "id": 118,
         "smiles": "*/C1=C(\\*)[C@@]2([H])C[C@@]2([H])CCc2ccccc21",
         "label": "",
         "text": ""
@@ -34,13 +36,14 @@
     "yield": "",
     "time": "",
     "details": {
-    }
+    },
+    "id_cdxml": 5539
   },
   {
     "id": 10000014,
-    "id_cdxml": 10000018,
     "reactants": [
       {
+        "id": 10000019,
         "smiles": "C#CC(OOCC(C)(C)C)c1ccccc1CCC=C",
         "label": "",
         "text": "R1 = H, Me, Et, Allyl, (CH2)2Ph R2 = Piv, Ac. Generated with: R1 - H; R2 - Piv"
@@ -48,14 +51,16 @@
     ],
     "reagents": [
       {
-        "smiles": "Cl[Au]*c1ccc2ccccc2c1-c1c(*[Au]Cl)ccc2ccccc12",
+        "id": 10000017,
+        "smiles": "[Cl][Au][*]c1ccc2ccccc2c1-c1c([*][Au][Cl])ccc2ccccc12",
         "label": "",
         "text": ""
       }
     ],
     "products": [
       {
-        "smiles": "[H][C@]12C[C@@]1([H])CCc1ccccc1/C=C\\2OC(O)C(C)(C)C",
+        "id": 10000020,
+        "smiles": "[H][C@]12CCc3ccccc3/C=C(/OC(O)C(C)(C)C)[C@@]1([H])C2",
         "label": "",
         "text": ". Generated with: R2 - Piv; R1 - H"
       }
@@ -71,13 +76,14 @@
     "yield": "",
     "time": "",
     "details": {
-    }
+    },
+    "id_cdxml": 10000018
   },
   {
     "id": 10000021,
-    "id_cdxml": 10000025,
     "reactants": [
       {
+        "id": 10000026,
         "smiles": "C#CC(OC(C)=O)c1ccccc1CCC=C",
         "label": "",
         "text": "R1 = H, Me, Et, Allyl, (CH2)2Ph R2 = Piv, Ac. Generated with: R1 - H; R2 - Ac"
@@ -85,14 +91,16 @@
     ],
     "reagents": [
       {
-        "smiles": "Cl[Au]*c1ccc2ccccc2c1-c1c(*[Au]Cl)ccc2ccccc12",
+        "id": 10000024,
+        "smiles": "[Cl][Au][*]c1ccc2ccccc2c1-c1c([*][Au][Cl])ccc2ccccc12",
         "label": "",
         "text": ""
       }
     ],
     "products": [
       {
-        "smiles": "[H][C@]12C[C@@]1([H])CCc1ccccc1/C=C\\2OC(C)=O",
+        "id": 10000027,
+        "smiles": "[H][C@]12CCc3ccccc3/C=C(/OC(C)=O)[C@@]1([H])C2",
         "label": "",
         "text": ". Generated with: R2 - Ac; R1 - H"
       }
@@ -108,13 +116,14 @@
     "yield": "",
     "time": "",
     "details": {
-    }
+    },
+    "id_cdxml": 10000025
   },
   {
     "id": 10000028,
-    "id_cdxml": 10000032,
     "reactants": [
       {
+        "id": 10000033,
         "smiles": "C#CC(C)(OOCC(C)(C)C)c1ccccc1CCC=C",
         "label": "",
         "text": "R1 = H, Me, Et, Allyl, (CH2)2Ph R2 = Piv, Ac. Generated with: R1 - Me; R2 - Piv"
@@ -122,14 +131,16 @@
     ],
     "reagents": [
       {
-        "smiles": "Cl[Au]*c1ccc2ccccc2c1-c1c(*[Au]Cl)ccc2ccccc12",
+        "id": 10000031,
+        "smiles": "[Cl][Au][*]c1ccc2ccccc2c1-c1c([*][Au][Cl])ccc2ccccc12",
         "label": "",
         "text": ""
       }
     ],
     "products": [
       {
-        "smiles": "[H][C@]12C[C@@]1([H])CCc1ccccc1/C(C)=C\\2OC(O)C(C)(C)C",
+        "id": 10000034,
+        "smiles": "[H][C@]12CCc3ccccc3/C(C)=C(/OC(O)C(C)(C)C)[C@@]1([H])C2",
         "label": "",
         "text": ". Generated with: R2 - Piv; R1 - Me"
       }
@@ -145,13 +156,14 @@
     "yield": "",
     "time": "",
     "details": {
-    }
+    },
+    "id_cdxml": 10000032
   },
   {
     "id": 10000035,
-    "id_cdxml": 10000039,
     "reactants": [
       {
+        "id": 10000040,
         "smiles": "C#CC(C)(OC(C)=O)c1ccccc1CCC=C",
         "label": "",
         "text": "R1 = H, Me, Et, Allyl, (CH2)2Ph R2 = Piv, Ac. Generated with: R1 - Me; R2 - Ac"
@@ -159,14 +171,16 @@
     ],
     "reagents": [
       {
-        "smiles": "Cl[Au]*c1ccc2ccccc2c1-c1c(*[Au]Cl)ccc2ccccc12",
+        "id": 10000038,
+        "smiles": "[Cl][Au][*]c1ccc2ccccc2c1-c1c([*][Au][Cl])ccc2ccccc12",
         "label": "",
         "text": ""
       }
     ],
     "products": [
       {
-        "smiles": "[H][C@]12C[C@@]1([H])CCc1ccccc1/C(C)=C\\2OC(C)=O",
+        "id": 10000041,
+        "smiles": "[H][C@]12CCc3ccccc3/C(C)=C(/OC(C)=O)[C@@]1([H])C2",
         "label": "",
         "text": ". Generated with: R2 - Ac; R1 - Me"
       }
@@ -182,13 +196,14 @@
     "yield": "",
     "time": "",
     "details": {
-    }
+    },
+    "id_cdxml": 10000039
   },
   {
     "id": 10000042,
-    "id_cdxml": 10000046,
     "reactants": [
       {
+        "id": 10000047,
         "smiles": "C#CC(CC)(OOCC(C)(C)C)c1ccccc1CCC=C",
         "label": "",
         "text": "R1 = H, Me, Et, Allyl, (CH2)2Ph R2 = Piv, Ac. Generated with: R1 - Et; R2 - Piv"
@@ -196,14 +211,16 @@
     ],
     "reagents": [
       {
-        "smiles": "Cl[Au]*c1ccc2ccccc2c1-c1c(*[Au]Cl)ccc2ccccc12",
+        "id": 10000045,
+        "smiles": "[Cl][Au][*]c1ccc2ccccc2c1-c1c([*][Au][Cl])ccc2ccccc12",
         "label": "",
         "text": ""
       }
     ],
     "products": [
       {
-        "smiles": "[H][C@]12C[C@@]1([H])CCc1ccccc1/C(CC)=C\\2OC(O)C(C)(C)C",
+        "id": 10000048,
+        "smiles": "[H][C@]12CCc3ccccc3/C(CC)=C(/OC(O)C(C)(C)C)[C@@]1([H])C2",
         "label": "",
         "text": ". Generated with: R2 - Piv; R1 - Et"
       }
@@ -219,13 +236,14 @@
     "yield": "",
     "time": "",
     "details": {
-    }
+    },
+    "id_cdxml": 10000046
   },
   {
     "id": 10000049,
-    "id_cdxml": 10000053,
     "reactants": [
       {
+        "id": 10000054,
         "smiles": "C#CC(CC)(OC(C)=O)c1ccccc1CCC=C",
         "label": "",
         "text": "R1 = H, Me, Et, Allyl, (CH2)2Ph R2 = Piv, Ac. Generated with: R1 - Et; R2 - Ac"
@@ -233,14 +251,16 @@
     ],
     "reagents": [
       {
-        "smiles": "Cl[Au]*c1ccc2ccccc2c1-c1c(*[Au]Cl)ccc2ccccc12",
+        "id": 10000052,
+        "smiles": "[Cl][Au][*]c1ccc2ccccc2c1-c1c([*][Au][Cl])ccc2ccccc12",
         "label": "",
         "text": ""
       }
     ],
     "products": [
       {
-        "smiles": "[H][C@]12C[C@@]1([H])CCc1ccccc1/C(CC)=C\\2OC(C)=O",
+        "id": 10000055,
+        "smiles": "[H][C@]12CCc3ccccc3/C(CC)=C(/OC(C)=O)[C@@]1([H])C2",
         "label": "",
         "text": ". Generated with: R2 - Ac; R1 - Et"
       }
@@ -256,13 +276,14 @@
     "yield": "",
     "time": "",
     "details": {
-    }
+    },
+    "id_cdxml": 10000053
   },
   {
     "id": 10000056,
-    "id_cdxml": 10000060,
     "reactants": [
       {
+        "id": 10000061,
         "smiles": "C#CC(CC=C)(OOCC(C)(C)C)c1ccccc1CCC=C",
         "label": "",
         "text": "R1 = H, Me, Et, Allyl, (CH2)2Ph R2 = Piv, Ac. Generated with: R1 - Allyl; R2 - Piv"
@@ -270,14 +291,16 @@
     ],
     "reagents": [
       {
-        "smiles": "Cl[Au]*c1ccc2ccccc2c1-c1c(*[Au]Cl)ccc2ccccc12",
+        "id": 10000059,
+        "smiles": "[Cl][Au][*]c1ccc2ccccc2c1-c1c([*][Au][Cl])ccc2ccccc12",
         "label": "",
         "text": ""
       }
     ],
     "products": [
       {
-        "smiles": "[H][C@]12C[C@@]1([H])CCc1ccccc1/C(CC=C)=C\\2OC(O)C(C)(C)C",
+        "id": 10000062,
+        "smiles": "[H][C@]12CCc3ccccc3/C(CC=C)=C(/OC(O)C(C)(C)C)[C@@]1([H])C2",
         "label": "",
         "text": ". Generated with: R2 - Piv; R1 - Allyl"
       }
@@ -293,13 +316,14 @@
     "yield": "",
     "time": "",
     "details": {
-    }
+    },
+    "id_cdxml": 10000060
   },
   {
     "id": 10000063,
-    "id_cdxml": 10000067,
     "reactants": [
       {
+        "id": 10000068,
         "smiles": "C#CC(CC=C)(OC(C)=O)c1ccccc1CCC=C",
         "label": "",
         "text": "R1 = H, Me, Et, Allyl, (CH2)2Ph R2 = Piv, Ac. Generated with: R1 - Allyl; R2 - Ac"
@@ -307,14 +331,16 @@
     ],
     "reagents": [
       {
-        "smiles": "Cl[Au]*c1ccc2ccccc2c1-c1c(*[Au]Cl)ccc2ccccc12",
+        "id": 10000066,
+        "smiles": "[Cl][Au][*]c1ccc2ccccc2c1-c1c([*][Au][Cl])ccc2ccccc12",
         "label": "",
         "text": ""
       }
     ],
     "products": [
       {
-        "smiles": "[H][C@]12C[C@@]1([H])CCc1ccccc1/C(CC=C)=C\\2OC(C)=O",
+        "id": 10000069,
+        "smiles": "[H][C@]12CCc3ccccc3/C(CC=C)=C(/OC(C)=O)[C@@]1([H])C2",
         "label": "",
         "text": ". Generated with: R2 - Ac; R1 - Allyl"
       }
@@ -330,13 +356,14 @@
     "yield": "",
     "time": "",
     "details": {
-    }
+    },
+    "id_cdxml": 10000067
   },
   {
     "id": 10000070,
-    "id_cdxml": 10000074,
     "reactants": [
       {
+        "id": 10000075,
         "smiles": "C#CC(CCc1ccccc1)(OOCC(C)(C)C)c1ccccc1CCC=C",
         "label": "",
         "text": "R1 = H, Me, Et, Allyl, (CH2)2Ph R2 = Piv, Ac. Generated with: R1 - (CH2)2Ph; R2 - Piv"
@@ -344,14 +371,16 @@
     ],
     "reagents": [
       {
-        "smiles": "Cl[Au]*c1ccc2ccccc2c1-c1c(*[Au]Cl)ccc2ccccc12",
+        "id": 10000073,
+        "smiles": "[Cl][Au][*]c1ccc2ccccc2c1-c1c([*][Au][Cl])ccc2ccccc12",
         "label": "",
         "text": ""
       }
     ],
     "products": [
       {
-        "smiles": "[H][C@]12C[C@@]1([H])CCc1ccccc1/C(CCc1ccccc1)=C\\2OC(O)C(C)(C)C",
+        "id": 10000076,
+        "smiles": "[H][C@]12CCc3ccccc3/C(CCc3ccccc3)=C(/OC(O)C(C)(C)C)[C@@]1([H])C2",
         "label": "",
         "text": ". Generated with: R2 - Piv; R1 - (CH2)2Ph"
       }
@@ -367,13 +396,14 @@
     "yield": "",
     "time": "",
     "details": {
-    }
+    },
+    "id_cdxml": 10000074
   },
   {
     "id": 10000077,
-    "id_cdxml": 10000081,
     "reactants": [
       {
+        "id": 10000082,
         "smiles": "C#CC(CCc1ccccc1)(OC(C)=O)c1ccccc1CCC=C",
         "label": "",
         "text": "R1 = H, Me, Et, Allyl, (CH2)2Ph R2 = Piv, Ac. Generated with: R1 - (CH2)2Ph; R2 - Ac"
@@ -381,14 +411,16 @@
     ],
     "reagents": [
       {
-        "smiles": "Cl[Au]*c1ccc2ccccc2c1-c1c(*[Au]Cl)ccc2ccccc12",
+        "id": 10000080,
+        "smiles": "[Cl][Au][*]c1ccc2ccccc2c1-c1c([*][Au][Cl])ccc2ccccc12",
         "label": "",
         "text": ""
       }
     ],
     "products": [
       {
-        "smiles": "[H][C@]12C[C@@]1([H])CCc1ccccc1/C(CCc1ccccc1)=C\\2OC(C)=O",
+        "id": 10000083,
+        "smiles": "[H][C@]12CCc3ccccc3/C(CCc3ccccc3)=C(/OC(C)=O)[C@@]1([H])C2",
         "label": "",
         "text": ". Generated with: R2 - Ac; R1 - (CH2)2Ph"
       }
@@ -404,6 +436,7 @@
     "yield": "",
     "time": "",
     "details": {
-    }
+    },
+    "id_cdxml": 10000081
   }
 ]

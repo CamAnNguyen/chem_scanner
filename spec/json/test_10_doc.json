@@ -4,6 +4,7 @@
       "id": 981,
       "reactants": [
         {
+          "id": 966,
           "smiles": "Brc1cccs1",
           "label": "",
           "text": ""
@@ -14,12 +15,16 @@
       ],
       "products": [
         {
-          "smiles": "c1csc(c1)c1cccs1",
+          "id": 920,
+          "smiles": "c1csc(-c2cccs2)c1",
           "label": "",
           "text": ""
         }
       ],
-      "steps": [], "reagent_smiles": [
+      "steps": [
+
+      ],
+      "reagent_smiles": [
         "CS(=O)C",
         "[O-]C(=O)[O-].[K+].[K+]",
         "c1ccc(cc1)P(c1ccccc1)C1=CC(C=C1)[Fe]C1C=CC(=C1)P(c1ccccc1)c1ccccc1.Cl[Pd]Cl.ClCCl"
@@ -37,6 +42,7 @@
       "id": 981,
       "reactants": [
         {
+          "id": 984,
           "smiles": "Brc1ccccn1",
           "label": "",
           "text": ""
@@ -47,12 +53,16 @@
       ],
       "products": [
         {
-          "smiles": "c1ccc(nc1)c1ccccn1",
+          "id": 1004,
+          "smiles": "c1ccc(-c2ccccn2)nc1",
           "label": "",
           "text": ""
         }
       ],
-      "steps": [], "reagent_smiles": [
+      "steps": [
+
+      ],
+      "reagent_smiles": [
         "CS(=O)C",
         "[O-]C(=O)[O-].[K+].[K+]",
         "c1ccc(cc1)P(c1ccccc1)C1=CC(C=C1)[Fe]C1C=CC(=C1)P(c1ccccc1)c1ccccc1.Cl[Pd]Cl.ClCCl"
@@ -70,7 +80,8 @@
       "id": 981,
       "reactants": [
         {
-          "smiles": "Brc1ccc2c(c1)cccc2",
+          "id": 984,
+          "smiles": "Brc1ccc2ccccc2c1",
           "label": "",
           "text": ""
         }
@@ -80,12 +91,16 @@
       ],
       "products": [
         {
-          "smiles": "c1ccc2c(c1)cc(cc2)c1ccc2c(c1)cccc2",
+          "id": 1004,
+          "smiles": "c1ccc2cc(-c3ccc4ccccc4c3)ccc2c1",
           "label": "",
           "text": ""
         }
       ],
-      "steps": [], "reagent_smiles": [
+      "steps": [
+
+      ],
+      "reagent_smiles": [
         "CS(=O)C",
         "[O-]C(=O)[O-].[K+].[K+]",
         "c1ccc(cc1)P(c1ccccc1)C1=CC(C=C1)[Fe]C1C=CC(=C1)P(c1ccccc1)c1ccccc1.Cl[Pd]Cl.ClCCl"
@@ -103,6 +118,7 @@
       "id": 981,
       "reactants": [
         {
+          "id": 1078,
           "smiles": "COc1ccccc1Br",
           "label": "",
           "text": ""
@@ -113,12 +129,16 @@
       ],
       "products": [
         {
-          "smiles": "COc1ccccc1c1ccccc1OC",
+          "id": 1079,
+          "smiles": "COc1ccccc1-c1ccccc1OC",
           "label": "",
           "text": ""
         }
       ],
-      "steps": [], "reagent_smiles": [
+      "steps": [
+
+      ],
+      "reagent_smiles": [
         "CS(=O)C",
         "[O-]C(=O)[O-].[K+].[K+]",
         "c1ccc(cc1)P(c1ccccc1)C1=CC(C=C1)[Fe]C1C=CC(=C1)P(c1ccccc1)c1ccccc1.Cl[Pd]Cl.ClCCl"
@@ -136,6 +156,7 @@
       "id": 981,
       "reactants": [
         {
+          "id": 1078,
           "smiles": "Brc1ccccc1",
           "label": "",
           "text": ""
@@ -146,12 +167,16 @@
       ],
       "products": [
         {
-          "smiles": "c1ccc(cc1)c1ccccc1",
+          "id": 1079,
+          "smiles": "c1ccc(-c2ccccc2)cc1",
           "label": "",
           "text": ""
         }
       ],
-      "steps": [], "reagent_smiles": [
+      "steps": [
+
+      ],
+      "reagent_smiles": [
         "CS(=O)C",
         "[O-]C(=O)[O-].[K+].[K+]",
         "c1ccc(cc1)P(c1ccccc1)C1=CC(C=C1)[Fe]C1C=CC(=C1)P(c1ccccc1)c1ccccc1.Cl[Pd]Cl.ClCCl"

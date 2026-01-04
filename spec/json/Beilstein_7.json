@@ -1,14 +1,15 @@
 [
   {
     "id": 1601,
-    "id_cdxml": 1689,
     "reactants": [
       {
+        "id": 1185,
         "smiles": "C=CCO[C@@H]1OC(CO[Si](c2ccccc2)(c2ccccc2)C(C)(C)C)[C@@H](O[C@@H]2OC(COC(C)=O)[C@H](OC(C)=O)C(OC(C)=O)C2OC(C)=O)C(O)C1NC(C)=O",
         "label": "8",
         "text": " +"
       },
       {
+        "id": 433,
         "smiles": "CCS[C@H]1OC(CO[Si](CC)(CC)CC)[C@@H](O[Si](CC)(CC)CC)C(O[Si](CC)(CC)CC)C1O[Si](CC)(CC)CC",
         "label": "7",
         "text": ""
@@ -19,6 +20,7 @@
     ],
     "products": [
       {
+        "id": 1092,
         "smiles": "C=CCO[C@@H]1OC(CO[Si](c2ccccc2)(c2ccccc2)C(C)(C)C)[C@@H](O[C@@H]2OC(COC(C)=O)[C@H](OC(C)=O)C(OC(C)=O)C2OC(C)=O)C(O[C@@H]2OC(CO[Si](CC)(CC)CC)[C@@H](O[Si](CC)(CC)CC)C(O[Si](CC)(CC)CC)C2O[Si](CC)(CC)CC)C1NC(C)=O",
         "label": "9",
         "text": "(α :β  9:1)"
@@ -36,6 +38,7 @@
     "yield": "53%",
     "time": "",
     "details": {
-    }
+    },
+    "id_cdxml": 1689
   }
 ]

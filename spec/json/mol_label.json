@@ -3,11 +3,13 @@
     "id": 2217,
     "reactants": [
       {
+        "id": 1799,
         "smiles": "C=C(CO)CNC(=O)c1ccccc1",
         "label": "10",
         "text": "+ "
       },
       {
+        "id": 1766,
         "smiles": "C=C[C@@H](CNC(=O)c1ccccc1Cl)NS(=O)(=O)c1ccc([N+](=O)[O-])cc1",
         "label": "9",
         "text": ""
@@ -18,6 +20,7 @@
     ],
     "products": [
       {
+        "id": 1893,
         "smiles": "C=C[C@@H](CNC(=O)c1ccccc1Cl)N(CC(=C)CNC(=O)c1ccccc1)S(=O)(=O)c1ccc([N+](=O)[O-])cc1",
         "label": "20",
         "text": ""
@@ -40,6 +43,7 @@
     "id": 2218,
     "reactants": [
       {
+        "id": 1893,
         "smiles": "C=C[C@@H](CNC(=O)c1ccccc1Cl)N(CC(=C)CNC(=O)c1ccccc1)S(=O)(=O)c1ccc([N+](=O)[O-])cc1",
         "label": "20",
         "text": ""
@@ -50,6 +54,7 @@
     ],
     "products": [
       {
+        "id": 1997,
         "smiles": "O=C(NCC1=C[C@@H](CNC(=O)c2ccccc2Cl)N(S(=O)(=O)c2ccc([N+](=O)[O-])cc2)C1)c1ccccc1",
         "label": "21",
         "text": ""

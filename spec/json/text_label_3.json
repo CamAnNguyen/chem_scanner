@@ -3,11 +3,13 @@
     "id": 39234,
     "reactants": [
       {
+        "id": 39093,
         "smiles": "Cc1ccccc1",
         "label": "",
         "text": "+"
       },
       {
+        "id": 39069,
         "smiles": "O=C(O)c1ccccc1",
         "label": "",
         "text": "40 examples (40-99%)\nDTBP = di-tert-butyl peroxide"
@@ -15,13 +17,15 @@
     ],
     "reagents": [
       {
-        "smiles": "Br[Fe](Br)(Br)[Br-].CC(C)(C)N1C=[N+](C(C)(C)C)CC1",
+        "id": 39175,
+        "smiles": "CC(C)(C)N1C=[N+](C(C)(C)C)CC1.[Br][Fe]([Br])([Br])[Br-]",
         "label": "",
         "text": "catalyst ="
       }
     ],
     "products": [
       {
+        "id": 39114,
         "smiles": "O=C(OCc1ccccc1)c1ccccc1",
         "label": "",
         "text": "94%"

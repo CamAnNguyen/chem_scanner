@@ -47,9 +47,11 @@ describe "CDXML tests" do
 
               it "has same molecules" do
                 egroup.each do |emol|
-                  rmol = rgroup.detect { |m| m[:smiles] == emol["smiles"] }
+                  expected_smiles = emol["smiles_cdxml"] || emol["smiles"]
+                  rmol = rgroup.detect { |m| m[:smiles] == expected_smiles }
                   expect(rmol).to be_truthy
-                  expect(emol).to be_same_molecule_as(rmol)
+                  emol_for_comparison = emol.merge("smiles" => expected_smiles)
+                  expect(emol_for_comparison).to be_same_molecule_as(rmol)
                 end
               end
             end
