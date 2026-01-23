@@ -8,7 +8,7 @@ gem "nokogiri"
 gem "ruby-geometry", require: "geometry"
 gem "ruby-ole"
 
-gem "rdkit_chem"
+gem "rdkit_chem", "2025.09.3.14"
 
 group :development, :test do
   # and get a debugger console
