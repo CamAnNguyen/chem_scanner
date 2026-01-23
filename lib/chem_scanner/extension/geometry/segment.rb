@@ -17,7 +17,7 @@ module ChemScanner
         l1 = Geometry.distance(point1, point)
         l2 = Geometry.distance(point, point2)
 
-        length.round(2) === (l1 + l2).round(2)
+        (length - (l1 + l2)).abs < 0.01
       end
 
       def contains_segment?(other)

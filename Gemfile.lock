@@ -4,6 +4,7 @@ PATH
     chem_scanner (0.1.3)
       chronic_duration (>= 0.10)
       nokogiri (>= 1.8)
+      ostruct
       rdkit_chem
       ruby-geometry (>= 0.0.6)
       ruby-ole (>= 1.2)
@@ -122,6 +123,7 @@ GEM
     numerizer (0.1.1)
     object_shadow (1.1.2)
     os (1.1.4)
+    ostruct (0.6.3)
     paint (2.3.0)
     parallel (1.27.0)
     parser (3.3.10.1)
@@ -208,6 +210,7 @@ PLATFORMS
   arm64-darwin
   arm64-darwin-23
   x86_64-darwin
+  x86_64-linux
   x86_64-linux-gnu
   x86_64-linux-musl
 
@@ -284,6 +287,7 @@ CHECKSUMS
   numerizer (0.1.1) sha256=10ec9efec62472b69a3a0e275a18a44baa595ce6e2e4cfc1678d5cb2974c336f
   object_shadow (1.1.2) sha256=fea29b19bd6e3019c8427833e4b2c199a07825f346abf989e78357223dbc276f
   os (1.1.4) sha256=57816d6a334e7bd6aed048f4b0308226c5fb027433b67d90a9ab435f35108d3f
+  ostruct (0.6.3) sha256=95a2ed4a4bd1d190784e666b47b2d3f078e4a9efda2fccf18f84ddc6538ed912
   paint (2.3.0) sha256=327d623e4038619d5bd99ae5db07973859cd78400c7f0329eea283cef8e83be5
   parallel (1.27.0) sha256=4ac151e1806b755fb4e2dc2332cbf0e54f2e24ba821ff2d3dcf86bf6dc4ae130
   parser (3.3.10.1) sha256=06f6a725d2cd91e5e7f2b7c32ba143631e1f7c8ae2fb918fc4cebec187e6a688
